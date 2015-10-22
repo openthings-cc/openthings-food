@@ -1,5 +1,6 @@
-# foodOnto
-Food Ontology Playground
+# openthings-food
+
+Food mappings playground
 
 This is an experimental repo which aims to create mappings and common ontology to describe:
 
