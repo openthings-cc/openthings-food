@@ -1,0 +1,2741 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.1), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.0.1]",
+  "header": {
+    "languages": [
+      "undefined"
+    ],
+    "baseIris": [
+      "http://data.lirmm.fr/ontologies/food",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://purl.org/dc/terms",
+      "http://www.w3.org/2001/XMLSchema",
+      "http://xmlns.com/foaf/0.1",
+      "http://www.w3.org/ns/adms"
+    ],
+    "title": {
+      "undefined": "Food Ontology"
+    },
+    "iri": "http://data.lirmm.fr/ontologies/food",
+    "author": [
+      "http://data.lirmm.fr/ontologies/food#fran%C3%A7ois",
+      "http://data.lirmm.fr/ontologies/food#St%C3%A9phaneGigandet",
+      "http://data.lirmm.fr/ontologies/food#Mark",
+      "http://data.lirmm.fr/ontologies/food#EmmanuelNauer"
+    ],
+    "description": {
+      "undefined": "This ontology models the Food domain. It allows to describe ingredients and food products."
+    },
+    "other": {
+      "partOf": [
+        {
+          "identifier": "partOf",
+          "language": "undefined",
+          "value": "http://data.lirmm.fr/ontologies",
+          "type": "iri"
+        }
+      ],
+      "license": [
+        {
+          "identifier": "license",
+          "language": "undefined",
+          "value": "http://creativecommons.org/licenses/by/3.0/",
+          "type": "label"
+        }
+      ],
+      "creator": [
+        {
+          "identifier": "creator",
+          "language": "undefined",
+          "value": "http://data.lirmm.fr/ontologies/food#EmmanuelNauer",
+          "type": "iri"
+        },
+        {
+          "identifier": "creator",
+          "language": "undefined",
+          "value": "http://data.lirmm.fr/ontologies/food#St%C3%A9phaneGigandet",
+          "type": "iri"
+        },
+        {
+          "identifier": "creator",
+          "language": "undefined",
+          "value": "http://data.lirmm.fr/ontologies/food#fran%C3%A7ois",
+          "type": "iri"
+        },
+        {
+          "identifier": "creator",
+          "language": "undefined",
+          "value": "http://data.lirmm.fr/ontologies/food#Mark",
+          "type": "iri"
+        }
+      ],
+      "created": [
+        {
+          "identifier": "created",
+          "language": "undefined",
+          "value": "2013-09-24",
+          "type": "label"
+        }
+      ],
+      "preferredNamespacePrefix": [
+        {
+          "identifier": "preferredNamespacePrefix",
+          "language": "undefined",
+          "value": "food",
+          "type": "label"
+        }
+      ],
+      "publisher": [
+        {
+          "identifier": "publisher",
+          "language": "undefined",
+          "value": "http://data.lirmm.fr/ontologies/food#LIRMM",
+          "type": "label"
+        }
+      ],
+      "modified": [
+        {
+          "identifier": "modified",
+          "language": "undefined",
+          "value": "2013-09-24",
+          "type": "label"
+        }
+      ],
+      "preferredNamespaceUri": [
+        {
+          "identifier": "preferredNamespaceUri",
+          "language": "undefined",
+          "value": "http://data.lirmm.fr/ontologies/food#",
+          "type": "label"
+        }
+      ],
+      "title": [
+        {
+          "identifier": "title",
+          "language": "undefined",
+          "value": "Food Ontology",
+          "type": "label"
+        }
+      ],
+      "type": [
+        {
+          "identifier": "type",
+          "language": "undefined",
+          "value": "http://purl.org/adms/assettype/Ontology",
+          "type": "iri"
+        }
+      ],
+      "homepage": [
+        {
+          "identifier": "homepage",
+          "language": "undefined",
+          "value": "http://data.lirmm.fr/ontologies/food.html",
+          "type": "iri"
+        }
+      ],
+      "status": [
+        {
+          "identifier": "status",
+          "language": "undefined",
+          "value": "http://purl.org/adms/status/UnderDevelopment",
+          "type": "iri"
+        }
+      ]
+    }
+  },
+  "namespace": [],
+  "metrics": {
+    "classCount": 11,
+    "objectPropertyCount": 2,
+    "datatypePropertyCount": 51,
+    "individualCount": 8
+  },
+  "settings": {
+    "global": {
+      "zoom": 1.0000000000000013,
+      "translation": [
+        15.670920031034484,
+        -45.79097454712905
+      ],
+      "paused": true
+    },
+    "gravity": {
+      "classDistance": 10,
+      "datatypeDistance": 30
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "0",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "6",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "7",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "8",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "9",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "10",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "11",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "12",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "13",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "14",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "15",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "25",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "17",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "26",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "27",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "28",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "35",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "36",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "37",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "38",
+      "type": "owl:Class"
+    },
+    {
+      "id": "3",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "39",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "40",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "45",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "44",
+      "type": "owl:Class"
+    },
+    {
+      "id": "48",
+      "type": "owl:Class"
+    },
+    {
+      "id": "49",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "32",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "19",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "24",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "56",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "57",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "58",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "59",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "60",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "62",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "30",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "71",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "72",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "73",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "21",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "76",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "55",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "69",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "51",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "42",
+      "type": "owl:Class"
+    },
+    {
+      "id": "83",
+      "type": "owl:Class"
+    },
+    {
+      "id": "91",
+      "type": "owl:Class"
+    },
+    {
+      "id": "2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "53",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "82",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "100",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "75",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "95",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "103",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "34",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "5",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "102",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "80",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "107",
+      "type": "owl:Class"
+    },
+    {
+      "id": "108",
+      "type": "owl:Class"
+    },
+    {
+      "id": "93",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "id": "0",
+      "label": {
+        "IRI-based": "Literal",
+        "undefined": "Literal"
+      },
+      "pos": [
+        1150.913517868989,
+        737.2651526477698
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "6",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "pos": [
+        709.0277443788615,
+        907.3836789387647
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "id": "7",
+      "label": {
+        "IRI-based": "Literal",
+        "undefined": "Literal"
+      },
+      "pos": [
+        769.5860805154905,
+        883.901073176708
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "8",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        490.8134191029363,
+        358.5791682232319
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "9",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        784.3565635334621,
+        614.9761157639753
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "10",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        751.747154088815,
+        632.2355359645404
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "11",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        476.69653991217655,
+        542.0674672205328
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "12",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        853.2555247642549,
+        458.8867935700666
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "13",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        509.39811585206996,
+        603.8996972137359
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "14",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        541.8146838729156,
+        610.9740900798292
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "15",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        618.8016994154837,
+        655.8292301140019
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "25",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        843.6198081502173,
+        412.74342316661654
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "17",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        839.5547782063408,
+        488.4246686000066
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "id": "26",
+      "label": {
+        "IRI-based": "Literal",
+        "undefined": "Literal"
+      },
+      "pos": [
+        1166.2432628445845,
+        553.7450963863687
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "27",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        821.7012927451601,
+        513.217497699585
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "28",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        464.73976109270626,
+        454.269412948502
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "35",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        826.0789197145649,
+        574.4176636673263
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "36",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        573.9971148012021,
+        281.8863482744586
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "id": "37",
+      "label": {
+        "IRI-based": "Literal",
+        "undefined": "Literal"
+      },
+      "pos": [
+        1181.859336005721,
+        642.826371050036
+      ]
+    },
+    {
+      "iri": "http://xmlns.com/foaf/0.1/Person",
+      "baseIri": "http://xmlns.com/foaf/0.1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Person"
+      },
+      "individuals": [
+        {
+          "iri": "http://data.lirmm.fr/ontologies/food#EmmanuelNauer",
+          "baseIri": "http://data.lirmm.fr/ontologies/food",
+          "annotations": {
+            "name": [
+              {
+                "identifier": "name",
+                "language": "undefined",
+                "value": "Emmanuel Nauer",
+                "type": "label"
+              }
+            ],
+            "homepage": [
+              {
+                "identifier": "homepage",
+                "language": "undefined",
+                "value": "urn:default:baseUri:",
+                "type": "iri"
+              }
+            ]
+          },
+          "labels": {
+            "IRI-based": "EmmanuelNauer"
+          }
+        },
+        {
+          "iri": "http://data.lirmm.fr/ontologies/food#St%C3%A9phaneGigandet",
+          "baseIri": "http://data.lirmm.fr/ontologies/food",
+          "annotations": {
+            "name": [
+              {
+                "identifier": "name",
+                "language": "undefined",
+                "value": "Stéphane Gigandet",
+                "type": "label"
+              }
+            ],
+            "homepage": [
+              {
+                "identifier": "homepage",
+                "language": "undefined",
+                "value": "urn:default:baseUri:",
+                "type": "iri"
+              }
+            ]
+          },
+          "labels": {
+            "IRI-based": "St%C3%A9phaneGigandet"
+          }
+        },
+        {
+          "iri": "http://data.lirmm.fr/ontologies/food#fran%C3%A7ois",
+          "baseIri": "http://data.lirmm.fr/ontologies/food",
+          "annotations": {
+            "name": [
+              {
+                "identifier": "name",
+                "language": "undefined",
+                "value": "François Scharffe",
+                "type": "label"
+              }
+            ],
+            "homepage": [
+              {
+                "identifier": "homepage",
+                "language": "undefined",
+                "value": "http://www.scharffe.fr",
+                "type": "iri"
+              }
+            ]
+          },
+          "labels": {
+            "IRI-based": "fran%C3%A7ois"
+          }
+        },
+        {
+          "iri": "http://data.lirmm.fr/ontologies/food#Mark",
+          "baseIri": "http://data.lirmm.fr/ontologies/food",
+          "annotations": {
+            "name": [
+              {
+                "identifier": "name",
+                "language": "undefined",
+                "value": "Mark Harrison",
+                "type": "label"
+              }
+            ],
+            "homepage": [
+              {
+                "identifier": "homepage",
+                "language": "undefined",
+                "value": "urn:default:baseUri:",
+                "type": "iri"
+              }
+            ]
+          },
+          "labels": {
+            "IRI-based": "Mark"
+          }
+        }
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "38",
+      "pos": [
+        260.2638328460386,
+        581.8380073641782
+      ],
+      "pinned": true
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "3",
+      "label": {
+        "IRI-based": "string"
+      },
+      "pos": [
+        848.7318938193386,
+        375.3666148348346
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "39",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        793.1245557775078,
+        319.333052528599
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "40",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        701.9269953056943,
+        267.7647160860599
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "id": "45",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        1059.09601651583,
+        637.5288228612336
+      ],
+      "pinned": true
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#Dish",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Dish",
+        "undefined": "A dish is a food item with a recipe"
+      },
+      "id": "44",
+      "superClasses": [
+        "2"
+      ],
+      "pos": [
+        610.8940914670848,
+        185.54669376543774
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#NutritionData",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "NutritionData",
+        "undefined": "Nutrition data for a food item (recipe, product or ingredient)"
+      },
+      "id": "48",
+      "pos": [
+        1020.2440369186503,
+        423.2205342170656
+      ],
+      "pinned": true
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "49",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        713.9982037958547,
+        650.1460895963766
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "32",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        662.7259665512584,
+        658.2517066316329
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "19",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        734.6530886528874,
+        262.59153315822846
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "24",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        826.1353313101006,
+        437.458677456712
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "56",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        822.2879047702094,
+        544.4481534854282
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "57",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        753.7941320208319,
+        288.78182154944494
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "58",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        543.019825784975,
+        292.168428610985
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "59",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        496.4163942695218,
+        386.5153466486959
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "60",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        588.746330356045,
+        641.5218752405805
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "62",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        473.46276634989863,
+        503.34101988476715
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "30",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        506.3209592302188,
+        534.8627284587182
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "id": "71",
+      "label": {
+        "IRI-based": "Literal",
+        "undefined": "Literal"
+      },
+      "pos": [
+        1096.0236995342527,
+        766.61742549641
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "72",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        639.3548709615862,
+        263.9835344601939
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "73",
+      "label": {
+        "IRI-based": "string"
+      },
+      "pos": [
+        632.8916884980242,
+        899.5134470029399
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "21",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        787.8723899592808,
+        288.251658592484
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "76",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        604.8894813910592,
+        268.9574828856169
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "id": "55",
+      "label": {
+        "IRI-based": "Literal",
+        "undefined": "Literal"
+      },
+      "pos": [
+        1174.258551900311,
+        599.9454038964788
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "id": "69",
+      "label": {
+        "IRI-based": "Literal",
+        "undefined": "Literal"
+      },
+      "pos": [
+        1175.2643875608353,
+        689.3903699494143
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "51",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        457.5245112319802,
+        143.94419462540432
+      ],
+      "pinned": true
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#Ingredient",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Ingredient",
+        "undefined": "An ingredient : a certain quantity of food that is part of another food"
+      },
+      "comment": {
+        "undefined": "Represents an ingredient line in a recipe (for a Dish) or an ingredient listed in the ingredient list (for a Product).\n\nWe need to specify a quantity and unit, so the relation is not binary. So the value for the containsIngredient property of a Food object is an object of the IngredientAmount class (instead of a Food object or string directly). See http://www.w3.org/TR/swbp-n-aryRelations/ for details."
+      },
+      "id": "42",
+      "pos": [
+        667.7082533091185,
+        761.6842430360748
+      ],
+      "pinned": true
+    },
+    {
+      "iri": "http://www.w3.org/ns/adms#SemanticAsset",
+      "baseIri": "http://www.w3.org/ns/adms",
+      "instances": 0,
+      "label": {
+        "IRI-based": "SemanticAsset"
+      },
+      "individuals": [
+        {
+          "iri": "http://data.lirmm.fr/ontologies/food",
+          "baseIri": "http://data.lirmm.fr/ontologies",
+          "labels": {
+            "IRI-based": "food"
+          }
+        }
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "83",
+      "pos": [
+        334.73017979455074,
+        267.3805169721602
+      ],
+      "pinned": true
+    },
+    {
+      "iri": "http://purl.org/dc/terms/Agent",
+      "baseIri": "http://purl.org/dc/terms",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Agent"
+      },
+      "individuals": [
+        {
+          "iri": "http://data.lirmm.fr/ontologies/food#LIRMM",
+          "baseIri": "http://data.lirmm.fr/ontologies/food",
+          "annotations": {
+            "member": [
+              {
+                "identifier": "member",
+                "language": "undefined",
+                "value": "http://data.lirmm.fr/ontologies/food#fran%C3%A7ois",
+                "type": "iri"
+              }
+            ],
+            "name": [
+              {
+                "identifier": "name",
+                "language": "undefined",
+                "value": "LIRMM",
+                "type": "label"
+              }
+            ],
+            "homepage": [
+              {
+                "identifier": "homepage",
+                "language": "undefined",
+                "value": "http://www.lirmm.fr",
+                "type": "iri"
+              }
+            ]
+          },
+          "labels": {
+            "IRI-based": "LIRMM"
+          }
+        }
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "91",
+      "pos": [
+        924.7623023279989,
+        244.0096038626536
+      ],
+      "pinned": true
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#Food",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Food",
+        "undefined": "Anything that can be eaten: a basic Food item (e.g. salt), a Dish made with a recipe, a manufactured Food Product"
+      },
+      "subClasses": [
+        "44",
+        "93"
+      ],
+      "id": "2",
+      "pos": [
+        664.1385552944705,
+        463.8639768354025
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "53",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        473.71697492823483,
+        411.2850085386256
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "82",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        672.0214141698639,
+        255.70537133664763
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "100",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        817.5335601946981,
+        369.632374960614
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "75",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        534.3514161167035,
+        322.39304209693336
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "95",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        497.05561641221334,
+        433.73693397604404
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "103",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        556.1271637457737,
+        640.0416091324383
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "34",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        502.13716310364293,
+        328.7866977273016
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "5",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        490.7564938971174,
+        479.1327631078405
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "102",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        825.0886683372846,
+        333.49297635192715
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "80",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "pos": [
+        502.5258346690697,
+        573.7295769746903
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/ns/adms#SemanticDistribution",
+      "baseIri": "http://www.w3.org/ns/adms",
+      "instances": 0,
+      "label": {
+        "IRI-based": "SemanticDistribution"
+      },
+      "individuals": [
+        {
+          "iri": "http://data.lirmm.fr/ontologies/food#ttl",
+          "baseIri": "http://data.lirmm.fr/ontologies/food",
+          "annotations": {
+            "license": [
+              {
+                "identifier": "license",
+                "language": "undefined",
+                "value": "http://creativecommons.org/licenses/by/3.0/",
+                "type": "iri"
+              }
+            ],
+            "accessURL": [
+              {
+                "identifier": "accessURL",
+                "language": "undefined",
+                "value": "http://data.lirmm.fr/ontologies/food.ttl",
+                "type": "label"
+              }
+            ],
+            "FileFormat": [
+              {
+                "identifier": "FileFormat",
+                "language": "undefined",
+                "value": "urn:default:baseUri:",
+                "type": "iri"
+              }
+            ],
+            "status": [
+              {
+                "identifier": "status",
+                "language": "undefined",
+                "value": "http://purl.org/adms/status/Completed",
+                "type": "iri"
+              }
+            ]
+          },
+          "labels": {
+            "IRI-based": "ttl"
+          }
+        },
+        {
+          "iri": "http://data.lirmm.fr/ontologies/food#rdf",
+          "baseIri": "http://data.lirmm.fr/ontologies/food",
+          "annotations": {
+            "license": [
+              {
+                "identifier": "license",
+                "language": "undefined",
+                "value": "http://creativecommons.org/licenses/by/3.0/",
+                "type": "iri"
+              }
+            ],
+            "accessURL": [
+              {
+                "identifier": "accessURL",
+                "language": "undefined",
+                "value": "http://data.lirmm.fr/ontologies/food.rdf",
+                "type": "label"
+              }
+            ],
+            "FileFormat": [
+              {
+                "identifier": "FileFormat",
+                "language": "undefined",
+                "value": "urn:default:baseUri:",
+                "type": "iri"
+              }
+            ],
+            "status": [
+              {
+                "identifier": "status",
+                "language": "undefined",
+                "value": "http://purl.org/adms/status/Completed",
+                "type": "iri"
+              }
+            ]
+          },
+          "labels": {
+            "IRI-based": "rdf"
+          }
+        }
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "107",
+      "pos": [
+        756.3953309592546,
+        122.96735885901342
+      ],
+      "pinned": true
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#Recipe",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Recipe",
+        "undefined": "Recipe"
+      },
+      "comment": {
+        "undefined": "A recipe as a set of ingredients together with the protocol to prepare the resulting food"
+      },
+      "id": "108",
+      "pos": [
+        391.53408779252095,
+        706.0519464210199
+      ],
+      "pinned": true
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#FoodProduct",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "FoodProduct",
+        "undefined": "A manufactured food product"
+      },
+      "id": "93",
+      "superClasses": [
+        "2"
+      ],
+      "pos": [
+        933.0037951289117,
+        701.7084532083036
+      ],
+      "pinned": true
+    }
+  ],
+  "property": [
+    {
+      "id": "1",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "4",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "16",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "18",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "20",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "22",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "23",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "29",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "31",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "33",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "41",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "43",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "46",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "47",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "50",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "52",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "54",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "61",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "63",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "64",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "65",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "66",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "67",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "68",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "70",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "74",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "77",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "78",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "79",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "81",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "84",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "85",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "86",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "87",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "88",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "89",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "90",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "92",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "94",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "96",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "97",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "98",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "99",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "101",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "104",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "105",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "106",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "109",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "110",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "111",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "112",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "113",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "114",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "115",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "116",
+      "type": "owl:datatypeProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#ingredientListAsText",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "3",
+      "label": {
+        "IRI-based": "ingredientListAsText",
+        "undefined": "Text of the list of ingredients"
+      },
+      "domain": "2",
+      "comment": {
+        "undefined": "Full text of the list of ingredients of a Food item (Product or Dish). May contain more details than what can be listed in the containsIngredient properties."
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "id": "1",
+      "pos": [
+        768.54910414914,
+        413.80768437918874
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#fatPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "5",
+      "label": {
+        "IRI-based": "fatPer100g",
+        "undefined": "Nutrition data: fat (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "4",
+      "pos": [
+        567.5439060734939,
+        472.3705261411932
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#molybdenumPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "17",
+      "label": {
+        "IRI-based": "molybdenumPer100g",
+        "undefined": "Nutrition data: molybdenum (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "16",
+      "pos": [
+        761.6051635047161,
+        477.51064692016405
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#vitaminKPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "19",
+      "label": {
+        "IRI-based": "vitaminKPer100g",
+        "undefined": "Nutrition data: vitamin K (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "18",
+      "pos": [
+        705.9100880245794,
+        344.6338257118608
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#transFatPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "21",
+      "label": {
+        "IRI-based": "transFatPer100g",
+        "undefined": "Nutrition data: trans fat (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "20",
+      "pos": [
+        736.8819274698005,
+        360.6211390204826
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#phosphorusPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "14",
+      "label": {
+        "IRI-based": "phosphorusPer100g",
+        "undefined": "Nutrition data: phosphorus (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "22",
+      "pos": [
+        591.1502390625158,
+        551.6417698501423
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#vitaminEPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "24",
+      "label": {
+        "IRI-based": "vitaminEPer100g",
+        "undefined": "Nutrition data: vitamin E (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "23",
+      "pos": [
+        754.8113097606255,
+        449.0844158709404
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#vitaminAPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "30",
+      "label": {
+        "IRI-based": "vitaminAPer100g",
+        "undefined": "Nutrition data: vitamin A (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "29",
+      "pos": [
+        573.5447942037852,
+        504.62016690992954
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#vitaminCPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "32",
+      "label": {
+        "IRI-based": "vitaminCPer100g",
+        "undefined": "Nutrition data: vitamin C (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "comment": {
+        "undefined": "Note that vitamin C is also known as L-ascorbic acid"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "id": "31",
+      "pos": [
+        663.2869284860193,
+        581.0571816686777
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#copperPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "34",
+      "label": {
+        "IRI-based": "copperPer100g",
+        "undefined": "Nutrition data: copper (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "33",
+      "pos": [
+        569.9333838387638,
+        385.31540348018245
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#quantity",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "7",
+      "label": {
+        "IRI-based": "quantity",
+        "undefined": "quantity of ingredient in any unit (unit specified in unit)"
+      },
+      "domain": "42",
+      "comment": {
+        "undefined": "e.g. 1 clove of garlic -> quantity = 1, unit = clove, ingredient = garlic (or Food object for garlic)"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "id": "41",
+      "pos": [
+        730.4866888918119,
+        836.9958354453095
+      ]
+    },
+    {
+      "range": "2",
+      "domain": "44",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "43",
+      "pos": [
+        637.5163233807776,
+        324.70533530042013
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#potassiumPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "11",
+      "label": {
+        "IRI-based": "potassiumPer100g",
+        "undefined": "Nutrition data: potassium (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "46",
+      "pos": [
+        559.3293616562287,
+        507.5918718339949
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#zincPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "40",
+      "label": {
+        "IRI-based": "zincPer100g",
+        "undefined": "Nutrition data: zinc (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "47",
+      "pos": [
+        686.7997575700335,
+        346.26597563161306
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#silicaPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "51",
+      "label": {
+        "IRI-based": "silicaPer100g",
+        "undefined": "Nutrition data: silica (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "44",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "50",
+      "pos": [
+        525.0812203592915,
+        162.26939268009102
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#calciumPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "53",
+      "label": {
+        "IRI-based": "calciumPer100g",
+        "undefined": "Nutrition data: calcium (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "52",
+      "pos": [
+        559.8295360172922,
+        435.0623010637046
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#saturatedFatPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "55",
+      "label": {
+        "IRI-based": "saturatedFatPer100g",
+        "undefined": "Nutrition data: saturated fat (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "45",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "54",
+      "pos": [
+        1115.9371212330834,
+        618.9786663726163
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#vitaminB6Per100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "59",
+      "label": {
+        "IRI-based": "vitaminB6Per100g",
+        "undefined": "Nutrition data: vitamin B6 (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "61",
+      "pos": [
+        568.417279494,
+        419.72008125448997
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#vitaminB2Per100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "57",
+      "label": {
+        "IRI-based": "vitaminB2Per100g",
+        "undefined": "Nutrition data: vitamin B2 (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "comment": {
+        "undefined": "Note that vitamin B2 is also known as riboflavin"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "id": "63",
+      "pos": [
+        717.8007754415728,
+        359.0707503140932
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#iodinePer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "28",
+      "label": {
+        "IRI-based": "iodinePer100g",
+        "undefined": "Nutrition data: iodine (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "64",
+      "pos": [
+        554.4680491617966,
+        458.5869104328147
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#containsIngredient",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "42",
+      "label": {
+        "IRI-based": "containsIngredient",
+        "undefined": "Specifies an ingredient contained in the Food object"
+      },
+      "domain": "2",
+      "comment": {
+        "undefined": "Value is an object of the class Ingredient so that we can specify the quantity, the unit, and the nature of the ingredient (string or other Food object)\n\ne.g. 1 clove of garlic -> quantity = 1, unit = clove, ingredient = garlic (or Food object for garlic)"
+      },
+      "attributes": [
+        "object"
+      ],
+      "id": "65",
+      "pos": [
+        611.7320201202836,
+        603.8666276192494
+      ],
+      "pinned": true
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#omega6FatPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "12",
+      "label": {
+        "IRI-based": "omega6FatPer100g",
+        "undefined": "Nutrition data: omega 6 fat (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "66",
+      "pos": [
+        768.6883865503892,
+        461.1124327937464
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#ironPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "27",
+      "label": {
+        "IRI-based": "ironPer100g",
+        "undefined": "Nutrition data: ironPer100g (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "67",
+      "pos": [
+        751.7769537618258,
+        491.31503282264555
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#sodiumPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "69",
+      "label": {
+        "IRI-based": "sodiumPer100g",
+        "undefined": "Nutrition data: sodium (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "45",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "68",
+      "pos": [
+        1119.6773850723948,
+        664.5744246011902
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#polyunsaturatedFatPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "8",
+      "label": {
+        "IRI-based": "polyunsaturatedFatPer100g",
+        "undefined": "Nutrition data: polyunsaturated fat (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "70",
+      "pos": [
+        564.3403775732932,
+        403.2424635794922
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#chloridePer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "75",
+      "label": {
+        "IRI-based": "chloridePer100g",
+        "undefined": "Nutrition data: chloride (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "74",
+      "pos": [
+        586.9314700413856,
+        379.70649722391215
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#magnesiumPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "36",
+      "label": {
+        "IRI-based": "magnesiumPer100g",
+        "undefined": "Nutrition data: magnesium (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "77",
+      "pos": [
+        610.4477430284898,
+        355.47291232380684
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#monounsaturatedFatPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "25",
+      "label": {
+        "IRI-based": "monounsaturatedFatPer100g",
+        "undefined": "Nutrition data: monounsaturated fat (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "78",
+      "pos": [
+        762.9229271483844,
+        435.72782499421805
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#biotinPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "80",
+      "label": {
+        "IRI-based": "biotinPer100g",
+        "undefined": "Nutrition data: biotin (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "comment": {
+        "undefined": "Note that biotin is also known as vitamin H or vitamin B7"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "id": "79",
+      "pos": [
+        570.0122048254814,
+        527.8518111047496
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#carbohydratesPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "82",
+      "label": {
+        "IRI-based": "carbohydratesPer100g",
+        "undefined": "Nutrition data: carbohydrates (in g) per 100g (or 100ml for liquids) "
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "81",
+      "pos": [
+        668.8366962745893,
+        339.80258105032465
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#omega3Fatper100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "13",
+      "label": {
+        "IRI-based": "omega3Fatper100g",
+        "undefined": "Nutrition data: omega 3 fat (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "84",
+      "pos": [
+        573.7569106383454,
+        545.6568085218489
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#manganesePer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "35",
+      "label": {
+        "IRI-based": "manganesePer100g",
+        "undefined": "Nutrition data: manganese (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "85",
+      "pos": [
+        758.4320611873444,
+        528.2364065140368
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#pantothenicAcidPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "15",
+      "label": {
+        "IRI-based": "pantothenicAcidPer100g",
+        "undefined": "Nutrition data: pantothenic acid (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "comment": {
+        "undefined": "Note that pantothenic acid is also known as vitamin B5"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "id": "86",
+      "pos": [
+        636.9047634524532,
+        579.1772610791079
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#vitaminB1Per100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "60",
+      "label": {
+        "IRI-based": "vitaminB1Per100g",
+        "undefined": "Nutrition data: vitamin B1 (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "comment": {
+        "undefined": "Note that vitamin B1 is also known as thiamin"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "id": "87",
+      "pos": [
+        618.7980959040729,
+        570.7064361818688
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#unit",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "73",
+      "label": {
+        "IRI-based": "unit",
+        "undefined": "Unit for the specified quantity"
+      },
+      "domain": "42",
+      "comment": {
+        "undefined": "e.g. 1 clove of garlic -> quantity = 1, unit = clove, ingredient = garlic (or Food object for garlic)"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "id": "88",
+      "pos": [
+        645.4401678292891,
+        849.8374687263072
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#vitaminB9Per100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "58",
+      "label": {
+        "IRI-based": "vitaminB9Per100g",
+        "undefined": "Nutrition data: vitamin B9 (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "comment": {
+        "undefined": "Note that vitamin B9 is also known as folacin or folic acid or vitamin M"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "id": "89",
+      "pos": [
+        592.6954521841974,
+        362.5876275453428
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#vitaminB3Per100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "56",
+      "label": {
+        "IRI-based": "vitaminB3Per100g",
+        "undefined": "Nutrition data: vitamin B3 (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "comment": {
+        "undefined": "Note that vitamin B3 is also known as vitamin Pp or niacin or nicotinic acid"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "id": "90",
+      "pos": [
+        755.6755387822684,
+        510.5061696224351
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#seleniumPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "76",
+      "label": {
+        "IRI-based": "seleniumPer100g",
+        "undefined": "Nutrition data: selenium (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "92",
+      "pos": [
+        628.7628094606828,
+        347.49148124901467
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#cholesterolPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "95",
+      "label": {
+        "IRI-based": "cholesterolPer100g",
+        "undefined": "Nutrition data: cholesterol (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "94",
+      "pos": [
+        570.9938418210261,
+        447.06887618832434
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#sugarsPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "71",
+      "label": {
+        "IRI-based": "sugarsPer100g",
+        "undefined": "Nutrition data: sugars (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "45",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "96",
+      "pos": [
+        1080.2550227338047,
+        711.4946480245594
+      ]
+    },
+    {
+      "range": "2",
+      "domain": "93",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "97",
+      "pos": [
+        798.5711752116911,
+        582.786215021853
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#fluoridePer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "39",
+      "label": {
+        "IRI-based": "fluoridePer100g",
+        "undefined": "Nutrition data: fluoride (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "98",
+      "pos": [
+        740.8154506015435,
+        377.9462608801377
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#starchPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "72",
+      "label": {
+        "IRI-based": "starchPer100g",
+        "undefined": "Nutrition data: starch (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "99",
+      "pos": [
+        649.2904194860678,
+        344.11374462748046
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#bicarbonatePer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "102",
+      "label": {
+        "IRI-based": "bicarbonatePer100g",
+        "undefined": "Nutrition data: bicarbonate (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "101",
+      "pos": [
+        757.8673528072211,
+        387.9428303705978
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#carbonFootprintPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "100",
+      "label": {
+        "IRI-based": "carbonFootprintPer100g",
+        "undefined": "Carbon foorprint (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "104",
+      "pos": [
+        753.9985017561711,
+        408.66239641251735
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#netWeight",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "26",
+      "label": {
+        "IRI-based": "netWeight",
+        "undefined": "net weight of a food product (g) "
+      },
+      "domain": "45",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "105",
+      "pos": [
+        1118.0917191745366,
+        591.3971677407319
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#food",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "2",
+      "label": {
+        "IRI-based": "food",
+        "undefined": "Food that is an ingredient of another food"
+      },
+      "domain": "42",
+      "comment": {
+        "undefined": "String or Food object"
+      },
+      "attributes": [
+        "object"
+      ],
+      "id": "106",
+      "pos": [
+        707.685126307983,
+        599.549359023752
+      ],
+      "pinned": true
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#fiberPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "37",
+      "label": {
+        "IRI-based": "fiberPer100g",
+        "undefined": "Nutrition data: fiber (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "45",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "109",
+      "pos": [
+        1120.463729677388,
+        640.1769951252356
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#polyolsPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "9",
+      "label": {
+        "IRI-based": "polyolsPer100g",
+        "undefined": "Nutrition data: polyols (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "110",
+      "pos": [
+        735.8340767697343,
+        553.9841157432821
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#vitaminB12Per100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "62",
+      "label": {
+        "IRI-based": "vitaminB12Per100g",
+        "undefined": "Nutrition data: vitamin B12 (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "111",
+      "pos": [
+        559.3198352679385,
+        485.5653849993387
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#vitaminDPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "49",
+      "label": {
+        "IRI-based": "vitaminDPer100g",
+        "undefined": "Nutrition data: vitamin D (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "112",
+      "pos": [
+        694.1939807761147,
+        576.1549441192025
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#rank",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "6",
+      "label": {
+        "IRI-based": "rank",
+        "undefined": "Rank of an ingredient in an ingredient list ordered by quantity (e.g. food products)"
+      },
+      "domain": "42",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "113",
+      "pos": [
+        693.7708971137554,
+        853.585483882891
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#chromiumPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "103",
+      "label": {
+        "IRI-based": "chromiumPer100g",
+        "undefined": "Nutrition data: chromium (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "114",
+      "pos": [
+        600.1314450263808,
+        568.2661234564216
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#proteinsPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "10",
+      "label": {
+        "IRI-based": "proteinsPer100g",
+        "undefined": "Nutrition data: proteins (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "115",
+      "pos": [
+        716.8807706313241,
+        565.2271894697774
+      ]
+    },
+    {
+      "iri": "http://data.lirmm.fr/ontologies/food#saltEquivalentPer100g",
+      "baseIri": "http://data.lirmm.fr/ontologies/food",
+      "range": "0",
+      "label": {
+        "IRI-based": "saltEquivalentPer100g",
+        "undefined": "Nutrition data: equivalent in salt (in g) per 100g (or 100ml for liquids)"
+      },
+      "domain": "45",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "116",
+      "pos": [
+        1110.5612030364014,
+        693.4326401040746
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6704 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.1), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.0.1]",
+  "header": {
+    "languages": [
+      "en",
+      "fr",
+      "undefined"
+    ],
+    "baseIris": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "http://www.w3.org/2001/XMLSchema"
+    ],
+    "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+    "comments": {
+      "undefined": "\n      Derived from the DAML Wine ontology at \n      http://ontolingua.stanford.edu/doc/chimaera/ontologies/wines.daml\n      Substantially modified.\n    "
+    }
+  },
+  "namespace": [],
+  "metrics": {
+    "classCount": 65,
+    "objectPropertyCount": 8,
+    "datatypePropertyCount": 0,
+    "individualCount": 57
+  },
+  "settings": {
+    "global": {
+      "zoom": 0.3298769776932238,
+      "translation": [
+        469.0295651834143,
+        260.8497971859033
+      ],
+      "paused": true
+    },
+    "gravity": {
+      "classDistance": 100,
+      "datatypeDistance": 50
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "0",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "8",
+      "type": "owl:Class"
+    },
+    {
+      "id": "11",
+      "type": "owl:Class"
+    },
+    {
+      "id": "12",
+      "type": "owl:Class"
+    },
+    {
+      "id": "14",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "16",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "19",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "20",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "22",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "29",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "31",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "32",
+      "type": "owl:Class"
+    },
+    {
+      "id": "36",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "38",
+      "type": "owl:Class"
+    },
+    {
+      "id": "28",
+      "type": "owl:Class"
+    },
+    {
+      "id": "45",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "46",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "7",
+      "type": "owl:Class"
+    },
+    {
+      "id": "50",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "51",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "52",
+      "type": "owl:complementOf"
+    },
+    {
+      "id": "53",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "54",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "44",
+      "type": "owl:Class"
+    },
+    {
+      "id": "56",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "57",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "58",
+      "type": "owl:Class"
+    },
+    {
+      "id": "59",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "34",
+      "type": "owl:Class"
+    },
+    {
+      "id": "60",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "61",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "66",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "67",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "68",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "71",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "21",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "72",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "75",
+      "type": "owl:Class"
+    },
+    {
+      "id": "70",
+      "type": "owl:Class"
+    },
+    {
+      "id": "37",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "82",
+      "type": "owl:Class"
+    },
+    {
+      "id": "84",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "86",
+      "type": "owl:Class"
+    },
+    {
+      "id": "15",
+      "type": "owl:Class"
+    },
+    {
+      "id": "55",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "13",
+      "type": "owl:Class"
+    },
+    {
+      "id": "18",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "90",
+      "type": "owl:Class"
+    },
+    {
+      "id": "93",
+      "type": "owl:Class"
+    },
+    {
+      "id": "97",
+      "type": "owl:Class"
+    },
+    {
+      "id": "33",
+      "type": "owl:Class"
+    },
+    {
+      "id": "78",
+      "type": "owl:Class"
+    },
+    {
+      "id": "98",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "99",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "25",
+      "type": "owl:Class"
+    },
+    {
+      "id": "83",
+      "type": "owl:Class"
+    },
+    {
+      "id": "3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "103",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "91",
+      "type": "owl:Class"
+    },
+    {
+      "id": "47",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "104",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "105",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "106",
+      "type": "owl:Class"
+    },
+    {
+      "id": "107",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "108",
+      "type": "owl:Class"
+    },
+    {
+      "id": "110",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "112",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "95",
+      "type": "owl:Class"
+    },
+    {
+      "id": "113",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "114",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "49",
+      "type": "owl:Class"
+    },
+    {
+      "id": "41",
+      "type": "owl:Class"
+    },
+    {
+      "id": "115",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "117",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "89",
+      "type": "owl:Class"
+    },
+    {
+      "id": "118",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "124",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "9",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "134",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "102",
+      "type": "owl:Class"
+    },
+    {
+      "id": "76",
+      "type": "owl:Class"
+    },
+    {
+      "id": "63",
+      "type": "owl:Class"
+    },
+    {
+      "id": "23",
+      "type": "owl:equivalentClass"
+    },
+    {
+      "id": "87",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "137",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "96",
+      "type": "owl:Class"
+    },
+    {
+      "id": "30",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "150",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "153",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "154",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "116",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "48",
+      "type": "owl:Class"
+    },
+    {
+      "id": "85",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "79",
+      "type": "owl:Class"
+    },
+    {
+      "id": "101",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "156",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "81",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "40",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "158",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "120",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "65",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "160",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "109",
+      "type": "owl:Class"
+    },
+    {
+      "id": "88",
+      "type": "owl:Class"
+    },
+    {
+      "id": "165",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "166",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "168",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "170",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "171",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "176",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "122",
+      "type": "owl:Class"
+    },
+    {
+      "id": "135",
+      "type": "owl:Class"
+    },
+    {
+      "id": "186",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "188",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "17",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "43",
+      "type": "owl:Class"
+    },
+    {
+      "id": "199",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "92",
+      "type": "owl:Class"
+    },
+    {
+      "id": "77",
+      "type": "owl:Class"
+    },
+    {
+      "id": "200",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "201",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "163",
+      "type": "owl:Class"
+    },
+    {
+      "id": "210",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "220",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "126",
+      "type": "owl:equivalentClass"
+    },
+    {
+      "id": "226",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "94",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "229",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "4",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "35",
+      "type": "owl:Class"
+    },
+    {
+      "id": "232",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "234",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "237",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "240",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "26",
+      "type": "owl:Class"
+    },
+    {
+      "id": "245",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "155",
+      "type": "owl:Class"
+    },
+    {
+      "id": "187",
+      "type": "owl:Class"
+    },
+    {
+      "id": "246",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "247",
+      "type": "owl:intersectionOf"
+    }
+  ],
+  "classAttribute": [
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#BlandFishCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "BlandFishCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "0",
+      "pos": [
+        -89.31828130480477,
+        -121.1968191443828
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#LightMeatFowl",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "LightMeatFowl"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Turkey",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Turkey"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Chicken",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Chicken"
+          }
+        }
+      ],
+      "id": "6",
+      "superClasses": [
+        "7"
+      ],
+      "pos": [
+        -1049.123382498306,
+        476.30288680248685
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Sauternes",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Sauternes"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChateauDYchemSauterne",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ChateauDYchemSauterne"
+          }
+        }
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "8",
+      "superClasses": [
+        "9",
+        "10"
+      ],
+      "pos": [
+        1830.6154889907118,
+        363.63598029228837
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Meal",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Meal"
+      },
+      "id": "11",
+      "superClasses": [
+        "3"
+      ],
+      "pos": [
+        -21.794201414516188,
+        244.44422780363658
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#OysterShellfish",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "OysterShellfish"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Oysters",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Oysters"
+          }
+        }
+      ],
+      "id": "12",
+      "superClasses": [
+        "13"
+      ],
+      "pos": [
+        -892.955152892,
+        1511.5999411252894
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#IceWine",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "IceWine"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SelaksIceWine",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SelaksIceWine"
+          }
+        }
+      ],
+      "intersection": [
+        "15",
+        "10"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "14",
+      "pos": [
+        1996.695525437484,
+        1020.370650107919
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DryRedWine",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "DryRedWine"
+      },
+      "intersection": [
+        "17",
+        "18"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "16",
+      "pos": [
+        2133.213541774247,
+        689.1218816424977
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#LightMeatFowlCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "LightMeatFowlCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "19",
+      "pos": [
+        487.7490063353726,
+        -160.91117611871147
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Semillon",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Semillon"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#KalinCellarsSemillon",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "KalinCellarsSemillon"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CongressSpringsSemillon",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "CongressSpringsSemillon"
+          }
+        }
+      ],
+      "intersection": [
+        "21"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "20",
+      "pos": [
+        1056.485588748961,
+        -183.83871944139867
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CaliforniaWine",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "CaliforniaWine"
+      },
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "22",
+      "pos": [
+        1222.416631918269,
+        943.1955868104911
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RedTableWine",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "RedTableWine"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MariettaOldVinesRed",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "MariettaOldVinesRed"
+          }
+        }
+      ],
+      "intersection": [
+        "30"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "29",
+      "pos": [
+        1244.921362195593,
+        -229.58879148246857
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Chardonnay",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Chardonnay"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#BancroftChardonnay",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "BancroftChardonnay"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MountEdenVineyardEdnaValleyChardonnay",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "MountEdenVineyardEdnaValleyChardonnay"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MountadamChardonnay",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "MountadamChardonnay"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#FormanChardonnay",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "FormanChardonnay"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PeterMccoyChardonnay",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "PeterMccoyChardonnay"
+          }
+        }
+      ],
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "31",
+      "pos": [
+        1116.4645537748002,
+        362.6945562992904
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PastaWithWhiteSauce",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "PastaWithWhiteSauce"
+      },
+      "subClasses": [
+        "34",
+        "35"
+      ],
+      "id": "32",
+      "superClasses": [
+        "33"
+      ],
+      "pos": [
+        -87.66933570805395,
+        1476.6847732321094
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Anjou",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Anjou"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RoseDAnjou",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "RoseDAnjou"
+          }
+        }
+      ],
+      "intersection": [
+        "37"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "36",
+      "pos": [
+        1512.6800671425278,
+        -510.86349467895656
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#VintageYear",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "VintageYear"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Year1998",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Year1998"
+          }
+        }
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "38",
+      "pos": [
+        165.64219338003895,
+        -186.77469603335544
+      ],
+      "pinned": true
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#RedMeat",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "RedMeat"
+      },
+      "subClasses": [
+        "43",
+        "44"
+      ],
+      "id": "28",
+      "superClasses": [
+        "26"
+      ],
+      "pos": [
+        -770.5844006379317,
+        -199.0636050011638
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#ShellfishCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "ShellfishCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "45",
+      "pos": [
+        452.1019661782898,
+        -208.80528794610325
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteNonSweetWine",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "WhiteNonSweetWine"
+      },
+      "intersection": [
+        "47"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "46",
+      "pos": [
+        2169.2716595245993,
+        50.7086679735941
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Fowl",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Fowl"
+      },
+      "subClasses": [
+        "49",
+        "6"
+      ],
+      "id": "7",
+      "superClasses": [
+        "48"
+      ],
+      "pos": [
+        -767.6285870319218,
+        553.2876688627913
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CabernetSauvignon",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "CabernetSauvignon"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#FormanCabernetSauvignon",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "FormanCabernetSauvignon"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MariettaCabernetSauvignon",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "MariettaCabernetSauvignon"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PageMillWineryCabernetSauvignon",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "PageMillWineryCabernetSauvignon"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SantaCruzMountainVineyardCabernetSauvignon",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SantaCruzMountainVineyardCabernetSauvignon"
+          }
+        }
+      ],
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "50",
+      "pos": [
+        1322.7289106513779,
+        1009.0897017744459
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#FrenchWine",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "FrenchWine"
+      },
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "51",
+      "pos": [
+        1045.825510227565,
+        766.7778510354893
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#NonConsumableThing",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "NonConsumableThing"
+      },
+      "attributes": [
+        "complement"
+      ],
+      "id": "52",
+      "complement": [
+        "3"
+      ],
+      "pos": [
+        7.505279878947221,
+        795.3607212852745
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#GermanWine",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "GermanWine"
+      },
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "53",
+      "pos": [
+        1048.3152174360766,
+        518.4483283715404
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBurgundy",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "WhiteBurgundy"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PulignyMontrachetWhiteBurgundy",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "PulignyMontrachetWhiteBurgundy"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CortonMontrachetWhiteBurgundy",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "CortonMontrachetWhiteBurgundy"
+          }
+        }
+      ],
+      "intersection": [
+        "55",
+        "47"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "54",
+      "pos": [
+        2238.5843407556495,
+        459.79861159338355
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#SpicyRedMeat",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "SpicyRedMeat"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#BeefCurry",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "BeefCurry"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#GarlickyRoast",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "GarlickyRoast"
+          }
+        }
+      ],
+      "id": "44",
+      "superClasses": [
+        "28"
+      ],
+      "pos": [
+        -896.4948954865871,
+        -451.7311681407042
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PastaWithNonSpicyRedSauceCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "PastaWithNonSpicyRedSauceCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "56",
+      "pos": [
+        239.73274310777228,
+        -297.69887580946465
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Meritage",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Meritage"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#KathrynKennedyLateral",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "KathrynKennedyLateral"
+          }
+        }
+      ],
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "57",
+      "pos": [
+        1578.1477344621376,
+        909.6119661549377
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Region",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Region"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CentralCoastRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "CentralCoastRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MendocinoRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "MendocinoRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#BeaujolaisRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "BeaujolaisRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SantaCruzMountainsRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SantaCruzMountainsRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauterneRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SauterneRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#NapaRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "NapaRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ArroyoGrandeRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ArroyoGrandeRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#AlsaceRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "AlsaceRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#AustralianRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "AustralianRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ItalianRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ItalianRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SantaBarbaraRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SantaBarbaraRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CaliforniaRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "CaliforniaRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChiantiRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ChiantiRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SonomaRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SonomaRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#BourgogneRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "BourgogneRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MedocRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "MedocRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#GermanyRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "GermanyRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MeursaultRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "MeursaultRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SouthAustraliaRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SouthAustraliaRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#FrenchRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "FrenchRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#NewZealandRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "NewZealandRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ToursRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ToursRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PauillacRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "PauillacRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SancerreRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SancerreRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#EdnaValleyRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "EdnaValleyRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#TexasRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "TexasRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MuscadetRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "MuscadetRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MargauxRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "MargauxRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#StEmilionRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "StEmilionRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CotesDOrRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "CotesDOrRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#AnjouRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "AnjouRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#LoireRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "LoireRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#BordeauxRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "BordeauxRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PortugalRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "PortugalRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CentralTexasRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "CentralTexasRegion"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#USRegion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "USRegion"
+          }
+        }
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "58",
+      "pos": [
+        1414.2345032572323,
+        1300.5141315284516
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SweetWine",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "SweetWine"
+      },
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "59",
+      "pos": [
+        1519.923905398983,
+        396.0312601333317
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PastaWithLightCreamSauce",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "PastaWithLightCreamSauce"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PastaWithWhiteClamSauce",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "PastaWithWhiteClamSauce"
+          }
+        }
+      ],
+      "id": "34",
+      "superClasses": [
+        "32"
+      ],
+      "pos": [
+        80.87250175928726,
+        1725.2589822487555
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#SweetDessertCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "SweetDessertCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "60",
+      "pos": [
+        172.34550633415859,
+        363.78278470792003
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#FishCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "FishCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "61",
+      "pos": [
+        33.17659999427655,
+        279.4388692476426
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#FullBodiedWine",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "FullBodiedWine"
+      },
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "66",
+      "pos": [
+        1086.6331847295746,
+        866.0214915766237
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlanc",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "SauvignonBlanc"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SelaksSauvignonBlanc",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SelaksSauvignonBlanc"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CorbansSauvignonBlanc",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "CorbansSauvignonBlanc"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CorbansPrivateBinSauvignonBlanc",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "CorbansPrivateBinSauvignonBlanc"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#StonleighSauvignonBlanc",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "StonleighSauvignonBlanc"
+          }
+        }
+      ],
+      "intersection": [
+        "21"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "67",
+      "pos": [
+        1124.0166231193577,
+        -218.20152700135958
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#StEmilion",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "StEmilion"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChateauChevalBlancStEmilion",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ChateauChevalBlancStEmilion"
+          }
+        }
+      ],
+      "intersection": [
+        "9"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "68",
+      "pos": [
+        1913.2802055951718,
+        -242.87225988930658
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RedBordeaux",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "RedBordeaux"
+      },
+      "intersection": [
+        "9",
+        "17"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "71",
+      "pos": [
+        2034.311518075142,
+        104.42916978966672
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonOrSauvignonBlanc",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "SemillonOrSauvignonBlanc"
+      },
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "21",
+      "pos": [
+        1179.709773098235,
+        124.49248255866749
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Riesling",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Riesling"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CorbansDryWhiteRiesling",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "CorbansDryWhiteRiesling"
+          }
+        }
+      ],
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "72",
+      "pos": [
+        1596.2153632425216,
+        1150.159202022606
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Grape",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Grape"
+      },
+      "subClasses": [
+        "77",
+        "78"
+      ],
+      "id": "75",
+      "superClasses": [
+        "76"
+      ],
+      "pos": [
+        -902.7302476031549,
+        968.0073656111238
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PotableLiquid",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "PotableLiquid"
+      },
+      "subClasses": [
+        "79",
+        "23"
+      ],
+      "id": "70",
+      "superClasses": [
+        "3"
+      ],
+      "pos": [
+        588.4689393442933,
+        448.20696456361327
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Loire",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Loire"
+      },
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "37",
+      "pos": [
+        1475.531156639323,
+        -165.39622586446967
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PastaWithNonSpicyRedSauce",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "PastaWithNonSpicyRedSauce"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#SpaghettiWithTomatoSauce",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "SpaghettiWithTomatoSauce"
+          }
+        }
+      ],
+      "id": "82",
+      "superClasses": [
+        "83"
+      ],
+      "pos": [
+        -251.23972756577837,
+        1798.9068238566247
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Pauillac",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Pauillac"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChateauLafiteRothschildPauillac",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ChateauLafiteRothschildPauillac"
+          }
+        }
+      ],
+      "intersection": [
+        "85"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "84",
+      "pos": [
+        1980.785764767894,
+        -689.57622707121
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Port",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Port"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#TaylorPort",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "TaylorPort"
+          }
+        }
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "86",
+      "superClasses": [
+        "17"
+      ],
+      "pos": [
+        2219.9500929374017,
+        272.0954947388683
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DessertWine",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "DessertWine"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhitehallLanePrimavera",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "WhitehallLanePrimavera"
+          }
+        }
+      ],
+      "subClasses": [
+        "87"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "15",
+      "superClasses": [
+        "23"
+      ],
+      "pos": [
+        1703.695183763403,
+        1026.2843083288726
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Burgundy"
+      },
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "55",
+      "pos": [
+        1893.0880254007282,
+        533.4684306734766
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Shellfish",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Shellfish"
+      },
+      "subClasses": [
+        "12",
+        "89"
+      ],
+      "id": "13",
+      "superClasses": [
+        "88"
+      ],
+      "pos": [
+        -707.8415535868993,
+        1314.7521049375152
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DryWine",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "DryWine"
+      },
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "18",
+      "pos": [
+        1839.8514043365358,
+        677.7304726460146
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Dessert",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Dessert"
+      },
+      "subClasses": [
+        "91",
+        "92"
+      ],
+      "id": "90",
+      "superClasses": [
+        "48"
+      ],
+      "pos": [
+        -715.6079392447183,
+        368.47757908326963
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineTaste",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "WineTaste"
+      },
+      "subClasses": [
+        "41",
+        "95",
+        "96"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "93",
+      "superClasses": [
+        "94"
+      ],
+      "pos": [
+        570.9522129889668,
+        1286.0358603195239
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Winery",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Winery"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PeterMccoy",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "PeterMccoy"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ClosDeVougeot",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ClosDeVougeot"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Elyse",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Elyse"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Stonleigh",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Stonleigh"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MountEdenVineyard",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "MountEdenVineyard"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Selaks",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Selaks"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SantaCruzMountainVineyard",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SantaCruzMountainVineyard"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Handley",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Handley"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Ventana",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Ventana"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ClosDeLaPoussie",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ClosDeLaPoussie"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChateauDeMeursault",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ChateauDeMeursault"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChateauMargauxWinery",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ChateauMargauxWinery"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Longridge",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Longridge"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChateauMorgon",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ChateauMorgon"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CortonMontrachet",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "CortonMontrachet"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhitehallLane",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "WhitehallLane"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CongressSprings",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "CongressSprings"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#KathrynKennedy",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "KathrynKennedy"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Taylor",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Taylor"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChateauLafiteRothschild",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ChateauLafiteRothschild"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#GaryFarrell",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "GaryFarrell"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Beringer",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Beringer"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Foxen",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Foxen"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#KalinCellars",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "KalinCellars"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#McGuinnesso",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "McGuinnesso"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Cotturi",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Cotturi"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Corbans",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Corbans"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SaucelitoCanyon",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SaucelitoCanyon"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PulignyMontrachet",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "PulignyMontrachet"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DAnjou",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "DAnjou"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SevreEtMaine",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SevreEtMaine"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Forman",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Forman"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SeanThackrey",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SeanThackrey"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bancroft",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Bancroft"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SchlossRothermel",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SchlossRothermel"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#StGenevieve",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "StGenevieve"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChateauDYchem",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ChateauDYchem"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChateauChevalBlanc",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ChateauChevalBlanc"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#LaneTanner",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "LaneTanner"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Mountadam",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Mountadam"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SchlossVolrad",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SchlossVolrad"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Marietta",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Marietta"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PageMillWinery",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "PageMillWinery"
+          }
+        }
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "97",
+      "pos": [
+        1135.066234005875,
+        992.1245674552137
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Pasta",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Pasta"
+      },
+      "subClasses": [
+        "32",
+        "83"
+      ],
+      "id": "33",
+      "superClasses": [
+        "48"
+      ],
+      "pos": [
+        -256.90198128508814,
+        1123.2298230937124
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineGrape",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "WineGrape"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotNoirGrape",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "PinotNoirGrape"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SauvignonBlancGrape"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SangioveseGrape",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SangioveseGrape"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "PinotBlancGrape"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SemillonGrape"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MalbecGrape",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "MalbecGrape"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PetiteSyrahGrape",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "PetiteSyrahGrape"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CabernetFrancGrape",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "CabernetFrancGrape"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MerlotGrape",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "MerlotGrape"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ZinfandelGrape",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ZinfandelGrape"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "CheninBlancGrape"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CabernetSauvignonGrape",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "CabernetSauvignonGrape"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#GamayGrape",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "GamayGrape"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RieslingGrape",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "RieslingGrape"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PetiteVerdotGrape",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "PetiteVerdotGrape"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChardonnayGrape",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ChardonnayGrape"
+          }
+        }
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "78",
+      "superClasses": [
+        "75"
+      ],
+      "pos": [
+        -1088.2479204182825,
+        1180.3592805092524
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteLoire",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "WhiteLoire"
+      },
+      "intersection": [
+        "37",
+        "47"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "98",
+      "pos": [
+        1759.3852022928265,
+        -81.00411258325695
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Margaux",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Margaux"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChateauMargaux",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ChateauMargaux"
+          }
+        }
+      ],
+      "intersection": [
+        "85"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "99",
+      "pos": [
+        1862.5455267235136,
+        -717.2917714809046
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#NonRedMeat",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "NonRedMeat"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Pork",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Pork"
+          }
+        }
+      ],
+      "id": "25",
+      "superClasses": [
+        "26"
+      ],
+      "pos": [
+        -853.4240823533302,
+        -35.700833110865396
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PastaWithRedSauce",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "PastaWithRedSauce"
+      },
+      "subClasses": [
+        "82",
+        "102"
+      ],
+      "id": "83",
+      "superClasses": [
+        "33"
+      ],
+      "pos": [
+        -233.80424077453543,
+        1504.2723620407037
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#ConsumableThing",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "ConsumableThing"
+      },
+      "subClasses": [
+        "11",
+        "48",
+        "70",
+        "1"
+      ],
+      "id": "3",
+      "pos": [
+        49.57734247639653,
+        515.2191749703495
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#SweetFruitCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "SweetFruitCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "103",
+      "pos": [
+        -83.10102301773412,
+        123.90358511894036
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#SweetDessert",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "SweetDessert"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Pie",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Pie"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Cake",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Cake"
+          }
+        }
+      ],
+      "id": "91",
+      "superClasses": [
+        "90"
+      ],
+      "pos": [
+        -936.8241423885679,
+        170.66407289142808
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "WhiteWine"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#StGenevieveTexasWhite",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "StGenevieveTexasWhite"
+          }
+        }
+      ],
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "47",
+      "pos": [
+        1896.8092100883296,
+        260.94704029461803
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#OysterShellfishCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "OysterShellfishCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "104",
+      "pos": [
+        294.6581525439087,
+        -322.1059027101177
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Merlot",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Merlot"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#GaryFarrellMerlot",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "GaryFarrellMerlot"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#LongridgeMerlot",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "LongridgeMerlot"
+          }
+        }
+      ],
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "105",
+      "pos": [
+        1404.2966987311258,
+        1005.7001170076178
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineColor",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "WineColor"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#White",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "White"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Red",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Red"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Rose",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Rose"
+          }
+        }
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "106",
+      "superClasses": [
+        "94"
+      ],
+      "pos": [
+        902.5226275359411,
+        989.5791668356969
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DryRiesling",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "DryRiesling"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MountadamRiesling",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "MountadamRiesling"
+          }
+        }
+      ],
+      "intersection": [
+        "72"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "107",
+      "pos": [
+        1718.0528892592138,
+        1476.3762834612794
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#NonBlandFish",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "NonBlandFish"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Tuna",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Tuna"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Swordfish",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Swordfish"
+          }
+        }
+      ],
+      "id": "108",
+      "superClasses": [
+        "109"
+      ],
+      "pos": [
+        -474.0294766320722,
+        1691.2171691060462
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Zinfandel",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Zinfandel"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ElyseZinfandel",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ElyseZinfandel"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SaucelitoCanyonZinfandel",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SaucelitoCanyonZinfandel"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CotturiZinfandel",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "CotturiZinfandel"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MariettaZinfandel",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "MariettaZinfandel"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SaucelitoCanyonZinfandel1998",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SaucelitoCanyonZinfandel1998"
+          }
+        }
+      ],
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "110",
+      "pos": [
+        1475.871183604772,
+        990.7359310563048
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#MealCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "MealCourse"
+      },
+      "id": "1",
+      "superClasses": [
+        "3"
+      ],
+      "pos": [
+        240.7091715674321,
+        70.42383198390402
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#TexasWine",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "TexasWine"
+      },
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "112",
+      "pos": [
+        1317.9365820735293,
+        301.3277096168989
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineSugar",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "WineSugar"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Sweet",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Sweet"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Dry",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Dry"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#OffDry",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "OffDry"
+          }
+        }
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "95",
+      "superClasses": [
+        "93"
+      ],
+      "pos": [
+        838.734984510761,
+        1300.8976726727847
+      ],
+      "pinned": true
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PastaWithSpicyRedSauceCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "PastaWithSpicyRedSauceCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "113",
+      "pos": [
+        -32.00289076371714,
+        -140.68784794529432
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlanc",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "PinotBlanc"
+      },
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "114",
+      "pos": [
+        1195.938060865112,
+        336.78328822203105
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#DarkMeatFowl",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "DarkMeatFowl"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Duck",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Duck"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Goose",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Goose"
+          }
+        }
+      ],
+      "id": "49",
+      "superClasses": [
+        "7"
+      ],
+      "pos": [
+        -1051.1200243585786,
+        604.4781219807787
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineFlavor",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "WineFlavor"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Delicate",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Delicate"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Moderate",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Moderate"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Strong",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Strong"
+          }
+        }
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "41",
+      "superClasses": [
+        "93"
+      ],
+      "pos": [
+        365.89123520881947,
+        1004.4201362998797
+      ],
+      "pinned": true
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CotesDOr",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "CotesDOr"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ClosDeVougeotCotesDOr",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ClosDeVougeotCotesDOr"
+          }
+        }
+      ],
+      "intersection": [
+        "116"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "115",
+      "pos": [
+        2522.451503955441,
+        289.4099989012983
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DryWhiteWine",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "DryWhiteWine"
+      },
+      "intersection": [
+        "47",
+        "18"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "117",
+      "pos": [
+        2118.202396823882,
+        543.319154814907
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#NonOysterShellfish",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "NonOysterShellfish"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Lobster",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Lobster"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Clams",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Clams"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Crab",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Crab"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Mussels",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Mussels"
+          }
+        }
+      ],
+      "id": "89",
+      "superClasses": [
+        "13"
+      ],
+      "pos": [
+        -766.2387880994919,
+        1593.5399968859253
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#NonBlandFishCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "NonBlandFishCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "118",
+      "pos": [
+        102.98922442876584,
+        -265.4870642358584
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteTableWine",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "WhiteTableWine"
+      },
+      "intersection": [
+        "30"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "124",
+      "pos": [
+        1320.10124688069,
+        -211.39765530913874
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Bordeaux"
+      },
+      "subClasses": [
+        "8"
+      ],
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "9",
+      "pos": [
+        1742.8627278274055,
+        43.96089276252341
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Meursault",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Meursault"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChateauDeMeursaultMeursault",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ChateauDeMeursaultMeursault"
+          }
+        }
+      ],
+      "intersection": [
+        "54"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "134",
+      "pos": [
+        2547.5032246510928,
+        518.4463736781515
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PastaWithSpicyRedSauce",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "PastaWithSpicyRedSauce"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#FraDiavolo",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "FraDiavolo"
+          }
+        }
+      ],
+      "id": "102",
+      "superClasses": [
+        "83"
+      ],
+      "pos": [
+        -150.45149488931418,
+        1791.6542138771968
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#SweetFruit",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "SweetFruit"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Peaches",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Peaches"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Bananas",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Bananas"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#MixedFruit",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "MixedFruit"
+          }
+        }
+      ],
+      "subClasses": [
+        "75"
+      ],
+      "id": "76",
+      "superClasses": [
+        "48"
+      ],
+      "pos": [
+        -608.4943622600726,
+        813.5156612743675
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Vintage",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Vintage"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "63",
+      "pos": [
+        115.79874807875497,
+        -558.1549067107351
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Wine",
+        "en": "wine",
+        "fr": "vin"
+      },
+      "subClasses": [
+        "15",
+        "10",
+        "135"
+      ],
+      "attributes": [
+        "external",
+        "equivalent"
+      ],
+      "id": "23",
+      "superClasses": [
+        "70"
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SweetRiesling",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "SweetRiesling"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SchlossRothermelTrochenbierenausleseRiesling",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SchlossRothermelTrochenbierenausleseRiesling"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SchlossVolradTrochenbierenausleseRiesling",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SchlossVolradTrochenbierenausleseRiesling"
+          }
+        }
+      ],
+      "intersection": [
+        "72"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "87",
+      "superClasses": [
+        "15"
+      ],
+      "pos": [
+        1843.9342443361468,
+        1335.8508113908704
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Gamay",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Gamay"
+      },
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "137",
+      "pos": [
+        1024.8619955335553,
+        620.5434196865617
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineBody",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "WineBody"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Light",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Light"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Full",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Full"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Medium",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "Medium"
+          }
+        }
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "96",
+      "superClasses": [
+        "93"
+      ],
+      "pos": [
+        395.1916425554117,
+        1356.4852925880948
+      ],
+      "pinned": true
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#TableWine",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "TableWine"
+      },
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "30",
+      "pos": [
+        1314.9499961039094,
+        101.96310385804402
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Tours",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Tours"
+      },
+      "intersection": [
+        "37"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "150",
+      "pos": [
+        1581.4785890494006,
+        -470.2443859315067
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PastaWithLightCreamCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "PastaWithLightCreamCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "153",
+      "pos": [
+        363.067285890182,
+        322.9480322651052
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#AlsatianWine",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "AlsatianWine"
+      },
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "154",
+      "pos": [
+        1083.784277377445,
+        440.4693064049815
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RedBurgundy",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "RedBurgundy"
+      },
+      "intersection": [
+        "55",
+        "17"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "116",
+      "pos": [
+        2238.135224531996,
+        398.769878414267
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#EdibleThing",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "EdibleThing"
+      },
+      "subClasses": [
+        "90",
+        "7",
+        "26",
+        "76",
+        "88",
+        "33",
+        "122",
+        "155"
+      ],
+      "id": "48",
+      "superClasses": [
+        "3"
+      ],
+      "pos": [
+        -382.59416947789214,
+        571.216552622657
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Medoc",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Medoc"
+      },
+      "intersection": [
+        "9"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "85",
+      "pos": [
+        1871.6720092411433,
+        -409.37662361586695
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Juice",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Juice"
+      },
+      "id": "79",
+      "superClasses": [
+        "70"
+      ],
+      "pos": [
+        690.5164495040754,
+        215.90190505251897
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "id": "101",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        830.6189489571134,
+        1608.9521000988445
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlanc",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "CheninBlanc"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#VentanaCheninBlanc",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "VentanaCheninBlanc"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#FoxenCheninBlanc",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "FoxenCheninBlanc"
+          }
+        }
+      ],
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "156",
+      "pos": [
+        1001.4091804011892,
+        695.8590399421334
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "id": "81",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        1441.5130345496418,
+        1633.548485289755
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "id": "40",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        245.95282584024096,
+        1258.783374149353
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#positiveInteger",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "158",
+      "label": {
+        "IRI-based": "positiveInteger"
+      },
+      "pos": [
+        63.510167812748456,
+        -465.2289456018675
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "id": "120",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        420.08978305096633,
+        1647.9493928832808
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "id": "65",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        600.3151654846904,
+        -349.91027768810545
+      ],
+      "pinned": true
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBordeaux",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "WhiteBordeaux"
+      },
+      "intersection": [
+        "9",
+        "47"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "160",
+      "pos": [
+        2014.0418887401352,
+        -54.01387814226812
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Fish",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Fish"
+      },
+      "subClasses": [
+        "163",
+        "108"
+      ],
+      "id": "109",
+      "superClasses": [
+        "88"
+      ],
+      "pos": [
+        -526.5916241239596,
+        1405.6737582526982
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Seafood",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Seafood"
+      },
+      "subClasses": [
+        "109",
+        "13"
+      ],
+      "id": "88",
+      "superClasses": [
+        "48"
+      ],
+      "pos": [
+        -524.8109036955875,
+        1043.7112198467898
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#CheeseNutsDessertCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "CheeseNutsDessertCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "165",
+      "pos": [
+        402.31493122974865,
+        -236.85859055002862
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#NonSpicyRedMeatCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "NonSpicyRedMeatCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "166",
+      "pos": [
+        179.04729798829902,
+        -288.63634097849155
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#DessertCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "DessertCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "168",
+      "pos": [
+        33.26119565476454,
+        -257.88369859195615
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Muscadet",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Muscadet"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SevreEtMaineMuscadet",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SevreEtMaineMuscadet"
+          }
+        }
+      ],
+      "intersection": [
+        "37"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "170",
+      "pos": [
+        1367.0234808677458,
+        -492.6460202845045
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RoseWine",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "RoseWine"
+      },
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "171",
+      "pos": [
+        1634.8699759609524,
+        782.1694931820547
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#OtherTomatoBasedFoodCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "OtherTomatoBasedFoodCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "176",
+      "pos": [
+        -104.35282361810447,
+        -9.45701697118273
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#LateHarvest",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "LateHarvest"
+      },
+      "subClasses": [
+        "8"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "10",
+      "superClasses": [
+        "23"
+      ],
+      "pos": [
+        1784.295606014834,
+        735.3011073684133
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#OtherTomatoBasedFood",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "OtherTomatoBasedFood"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Pizza",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Pizza"
+          }
+        }
+      ],
+      "id": "122",
+      "superClasses": [
+        "48"
+      ],
+      "pos": [
+        -663.8014320890239,
+        632.0172640771583
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#EarlyHarvest",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "EarlyHarvest"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "135",
+      "superClasses": [
+        "23"
+      ],
+      "pos": [
+        1514.6977398036393,
+        933.1861033396369
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ItalianWine",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "ItalianWine"
+      },
+      "subClasses": [
+        "187"
+      ],
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "186",
+      "pos": [
+        1282.4206272077643,
+        1129.5738374931277
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#DarkMeatFowlCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "DarkMeatFowlCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "188",
+      "pos": [
+        318.03854842381196,
+        -265.1640788513436
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RedWine",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "RedWine"
+      },
+      "subClasses": [
+        "86"
+      ],
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "17",
+      "pos": [
+        1922.8738168005568,
+        434.6650801845668
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#NonSpicyRedMeat",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "NonSpicyRedMeat"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#RoastBeef",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "RoastBeef"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Veal",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Veal"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Steak",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Steak"
+          }
+        }
+      ],
+      "id": "43",
+      "superClasses": [
+        "28"
+      ],
+      "pos": [
+        -773.6221442574539,
+        -491.1444919201816
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#RedMeatCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "RedMeatCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "199",
+      "pos": [
+        26.28366016743654,
+        -200.15714771248088
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#CheeseNutsDessert",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "CheeseNutsDessert"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Nuts",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Nuts"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Cheese",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Cheese"
+          }
+        }
+      ],
+      "id": "92",
+      "superClasses": [
+        "90"
+      ],
+      "pos": [
+        -993.575977892639,
+        266.90540228584945
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#EatingGrape",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "EatingGrape"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#ThompsonSeedless",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "ThompsonSeedless"
+          }
+        }
+      ],
+      "id": "77",
+      "superClasses": [
+        "75"
+      ],
+      "pos": [
+        -1167.1897078640666,
+        985.3984113871265
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PetiteSyrah",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "PetiteSyrah"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SeanThackreySiriusPetiteSyrah",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "SeanThackreySiriusPetiteSyrah"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MariettaPetiteSyrah",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "MariettaPetiteSyrah"
+          }
+        }
+      ],
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "200",
+      "pos": [
+        1140.1062583636701,
+        923.8730697457329
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#SeafoodCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "SeafoodCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "201",
+      "pos": [
+        -77.11385582796233,
+        -62.00583094969907
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#BlandFish",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "BlandFish"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Flounder",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Flounder"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Scrod",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Scrod"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Halibut",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "Halibut"
+          }
+        }
+      ],
+      "id": "163",
+      "superClasses": [
+        "109"
+      ],
+      "pos": [
+        -581.9237466146024,
+        1692.1575500634804
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#SpicyRedMeatCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "SpicyRedMeatCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "210",
+      "pos": [
+        -98.78176901567237,
+        53.22186642552277
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Sancerre",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Sancerre"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ClosDeLaPoussieSancerre",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ClosDeLaPoussieSancerre"
+          }
+        }
+      ],
+      "intersection": [
+        "37"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "220",
+      "pos": [
+        1439.6625103518122,
+        -511.9528188469992
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine",
+      "equivalent": [
+        "23"
+      ],
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Wine"
+      },
+      "attributes": [
+        "equivalent"
+      ],
+      "id": "126",
+      "pos": [
+        1336.3065924850762,
+        624.6142109341503
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PastaWithHeavyCreamCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "PastaWithHeavyCreamCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "226",
+      "pos": [
+        265.72560702198564,
+        358.23491636767415
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineDescriptor",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "WineDescriptor"
+      },
+      "union": [
+        "93",
+        "106"
+      ],
+      "subClasses": [
+        "93",
+        "106"
+      ],
+      "comment": {
+        "undefined": "Made WineDescriptor unionType of tastes and color"
+      },
+      "attributes": [
+        "external",
+        "union"
+      ],
+      "id": "94",
+      "pos": [
+        623.3886345034216,
+        1003.6907829414035
+      ],
+      "pinned": true
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#FruitCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "FruitCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "229",
+      "pos": [
+        -38.222520699324626,
+        -202.97645724976059
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Fruit",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Fruit"
+      },
+      "union": [
+        "76",
+        "155"
+      ],
+      "attributes": [
+        "union"
+      ],
+      "id": "4",
+      "pos": [
+        -269.2072042530102,
+        733.0725733311739
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PastaWithHeavyCreamSauce",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "PastaWithHeavyCreamSauce"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#FettucineAlfRedo",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+          "labels": {
+            "IRI-based": "FettucineAlfRedo"
+          }
+        }
+      ],
+      "id": "35",
+      "superClasses": [
+        "32"
+      ],
+      "pos": [
+        -1.0537649889121679,
+        1766.5172726324568
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Beaujolais",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Beaujolais"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChateauMorgonBeaujolais",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ChateauMorgonBeaujolais"
+          }
+        }
+      ],
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "232",
+      "pos": [
+        1623.208893953267,
+        853.0410527873654
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#NonOysterShellfishCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "NonOysterShellfishCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "234",
+      "pos": [
+        530.046716397605,
+        -2.719617738349677
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#NonSweetFruitCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "NonSweetFruitCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "237",
+      "pos": [
+        375.02175367128075,
+        -289.3208750632673
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotNoir",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "PinotNoir"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#LaneTannerPinotNoir",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "LaneTannerPinotNoir"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MountadamPinotNoir",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "MountadamPinotNoir"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MountEdenVineyardEstatePinotNoir",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "MountEdenVineyardEstatePinotNoir"
+          }
+        }
+      ],
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "240",
+      "pos": [
+        1248.8474104576285,
+        1000.6827770278177
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Meat",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Meat"
+      },
+      "subClasses": [
+        "28",
+        "25"
+      ],
+      "id": "26",
+      "superClasses": [
+        "48"
+      ],
+      "pos": [
+        -636.1842737492012,
+        158.71569180260613
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CabernetFranc",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "CabernetFranc"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhitehallLaneCabernetFranc",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "WhitehallLaneCabernetFranc"
+          }
+        }
+      ],
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "245",
+      "pos": [
+        1441.0653148620074,
+        322.7372455550406
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#NonSweetFruit",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "NonSweetFruit"
+      },
+      "id": "155",
+      "superClasses": [
+        "48"
+      ],
+      "pos": [
+        -508.972342577173,
+        830.4131451085196
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Chianti",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Chianti"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChiantiClassico",
+          "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+          "labels": {
+            "IRI-based": "ChiantiClassico"
+          }
+        }
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "187",
+      "superClasses": [
+        "186"
+      ],
+      "pos": [
+        1243.850135013001,
+        1469.554470985847
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#NonRedMeatCourse",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "instances": 0,
+      "label": {
+        "IRI-based": "NonRedMeatCourse"
+      },
+      "intersection": [
+        "1"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "246",
+      "pos": [
+        515.5486451389517,
+        -93.6211197064509
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#AmericanWine",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "instances": 0,
+      "label": {
+        "IRI-based": "AmericanWine"
+      },
+      "intersection": [
+        "23"
+      ],
+      "attributes": [
+        "external",
+        "intersection"
+      ],
+      "id": "247",
+      "pos": [
+        1656.3347121753145,
+        690.3067700172463
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "2",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "24",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "27",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "39",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "62",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "64",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "69",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "73",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "80",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "100",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "111",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "119",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "121",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "123",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "125",
+      "type": "owl:allValuesFrom"
+    },
+    {
+      "id": "127",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "128",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "129",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "130",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "131",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "132",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "133",
+      "type": "owl:allValuesFrom"
+    },
+    {
+      "id": "42",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "138",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "139",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "140",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "141",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "142",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "143",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "144",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "136",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "145",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "146",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "147",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "148",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "149",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "151",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "152",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "157",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "159",
+      "type": "owl:allValuesFrom"
+    },
+    {
+      "id": "161",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "162",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "164",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "167",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "169",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "172",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "173",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "174",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "175",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "177",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "178",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "179",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "180",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "181",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "182",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "183",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "184",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "185",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "189",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "190",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "191",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "192",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "193",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "194",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "195",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "196",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "197",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "198",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "202",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "203",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "204",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "205",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "206",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "207",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "208",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "209",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "211",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "212",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "213",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "214",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "215",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "216",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "217",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "218",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "219",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "221",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "222",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "223",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "224",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "225",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "227",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "228",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "230",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "231",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "233",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "235",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "236",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "238",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "239",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "241",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "242",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "243",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "244",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "5",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "248",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "249",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "250",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "251",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "252",
+      "type": "rdfs:SubClassOf"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#madeFromFruit",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "range": "4",
+      "label": {
+        "IRI-based": "madeFromFruit"
+      },
+      "minCardinality": "1",
+      "domain": "3",
+      "subproperty": [
+        "5"
+      ],
+      "attributes": [
+        "object"
+      ],
+      "id": "2",
+      "pos": [
+        -109.81493088830685,
+        624.1458741507618
+      ]
+    },
+    {
+      "range": "26",
+      "domain": "25",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "24",
+      "pos": [
+        -740.8752231505593,
+        65.02360698957756
+      ]
+    },
+    {
+      "range": "26",
+      "domain": "28",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "27",
+      "pos": [
+        -703.3843371935665,
+        -20.17395659927884
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "range": "41",
+      "label": {
+        "IRI-based": "hasFlavor"
+      },
+      "superproperty": [
+        "42"
+      ],
+      "cardinality": "1",
+      "domain": "40",
+      "attributes": [
+        "external",
+        "object",
+        "functional"
+      ],
+      "id": "39",
+      "pos": [
+        298.2259435084442,
+        1147.9234792035222
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "range": "38",
+      "label": {
+        "IRI-based": "hasVintageYear"
+      },
+      "cardinality": "1",
+      "domain": "63",
+      "attributes": [
+        "external",
+        "object",
+        "functional"
+      ],
+      "id": "62",
+      "pos": [
+        140.01911783064898,
+        -377.6905353822402
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeIntoWine",
+      "inverse": "5",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "range": "65",
+      "label": {
+        "IRI-based": "madeIntoWine"
+      },
+      "domain": "65",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "64",
+      "pos": [
+        653.4783923794416,
+        -466.09720137199554
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#hasDrink",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "range": "70",
+      "label": {
+        "IRI-based": "hasDrink"
+      },
+      "minCardinality": "1",
+      "domain": "1",
+      "attributes": [
+        "object"
+      ],
+      "id": "69",
+      "pos": [
+        414.58905545586265,
+        259.31539827375866
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#producesWine",
+      "inverse": "74",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "range": "65",
+      "label": {
+        "IRI-based": "producesWine"
+      },
+      "domain": "65",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "73",
+      "pos": [
+        611.3182309771505,
+        -479.5273219880858
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "range": "58",
+      "label": {
+        "IRI-based": "locatedIn"
+      },
+      "domain": "81",
+      "attributes": [
+        "external",
+        "object",
+        "transitive"
+      ],
+      "id": "80",
+      "pos": [
+        1430.0733335470848,
+        1493.8850485097396
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "range": "95",
+      "label": {
+        "IRI-based": "hasSugar"
+      },
+      "superproperty": [
+        "42"
+      ],
+      "cardinality": "1",
+      "domain": "101",
+      "attributes": [
+        "external",
+        "object",
+        "functional"
+      ],
+      "id": "100",
+      "pos": [
+        834.2017114331495,
+        1472.9638043523066
+      ]
+    },
+    {
+      "range": "89",
+      "domain": "12",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "111"
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "range": "96",
+      "label": {
+        "IRI-based": "hasBody"
+      },
+      "superproperty": [
+        "42"
+      ],
+      "cardinality": "1",
+      "domain": "120",
+      "attributes": [
+        "external",
+        "object",
+        "functional"
+      ],
+      "id": "119",
+      "pos": [
+        409.1766171153224,
+        1520.197037587012
+      ]
+    },
+    {
+      "range": "122",
+      "domain": "26",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "121"
+    },
+    {
+      "range": "88",
+      "domain": "26",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "123"
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#hasDrink",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "range": "126",
+      "label": {
+        "IRI-based": "hasDrink"
+      },
+      "domain": "1",
+      "attributes": [
+        "object",
+        "allValues"
+      ],
+      "id": "125",
+      "pos": [
+        786.7232117122406,
+        346.6162746117445
+      ]
+    },
+    {
+      "range": "70",
+      "domain": "11",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "127"
+    },
+    {
+      "range": "33",
+      "domain": "26",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "128"
+    },
+    {
+      "range": "70",
+      "domain": "1",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "129"
+    },
+    {
+      "range": "33",
+      "domain": "4",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "130"
+    },
+    {
+      "range": "88",
+      "domain": "4",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "131"
+    },
+    {
+      "range": "1",
+      "domain": "11",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "132"
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#course",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "range": "1",
+      "label": {
+        "IRI-based": "course"
+      },
+      "domain": "11",
+      "attributes": [
+        "object",
+        "allValues"
+      ],
+      "id": "133",
+      "pos": [
+        96.34677531456784,
+        146.26010710896966
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasWineDescriptor",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "range": "94",
+      "label": {
+        "IRI-based": "hasWineDescriptor"
+      },
+      "domain": "23",
+      "subproperty": [
+        "119",
+        "100",
+        "136",
+        "39"
+      ],
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "42",
+      "pos": [
+        978.0817299826097,
+        815.0914620187681
+      ]
+    },
+    {
+      "range": "26",
+      "domain": "4",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "138"
+    },
+    {
+      "range": "4",
+      "domain": "7",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "139"
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#course",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "range": "1",
+      "label": {
+        "IRI-based": "course"
+      },
+      "minCardinality": "1",
+      "domain": "11",
+      "attributes": [
+        "object"
+      ],
+      "id": "140",
+      "pos": [
+        111.25475964048381,
+        171.90102463180733
+      ]
+    },
+    {
+      "range": "122",
+      "domain": "4",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "141"
+    },
+    {
+      "range": "33",
+      "domain": "7",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "142"
+    },
+    {
+      "range": "88",
+      "domain": "7",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "143"
+    },
+    {
+      "range": "122",
+      "domain": "7",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "144"
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "range": "106",
+      "label": {
+        "IRI-based": "hasColor"
+      },
+      "superproperty": [
+        "42"
+      ],
+      "cardinality": "1",
+      "domain": "23",
+      "attributes": [
+        "external",
+        "object",
+        "functional"
+      ],
+      "id": "136",
+      "pos": [
+        1124.0403505355632,
+        803.2048133820185
+      ]
+    },
+    {
+      "range": "26",
+      "domain": "7",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "145"
+    },
+    {
+      "range": "48",
+      "domain": "1",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "146"
+    },
+    {
+      "range": "13",
+      "domain": "109",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "147"
+    },
+    {
+      "range": "70",
+      "domain": "48",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "148"
+    },
+    {
+      "range": "32",
+      "domain": "35",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "149",
+      "pos": [
+        -45.87127287487551,
+        1616.549198536365
+      ]
+    },
+    {
+      "range": "28",
+      "domain": "44",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "151",
+      "pos": [
+        -830.4646295334378,
+        -319.22667427868066
+      ]
+    },
+    {
+      "range": "28",
+      "domain": "43",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "152",
+      "pos": [
+        -772.019604306807,
+        -337.0593060934267
+      ]
+    },
+    {
+      "range": "32",
+      "domain": "34",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "157",
+      "pos": [
+        -6.357377786765888,
+        1596.6078494700525
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "range": "97",
+      "label": {
+        "IRI-based": "hasMaker"
+      },
+      "domain": "23",
+      "attributes": [
+        "external",
+        "object",
+        "functional",
+        "allValues"
+      ],
+      "id": "159",
+      "pos": [
+        1243.1965373924672,
+        794.6542059002554
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "range": "58",
+      "label": {
+        "IRI-based": "locatedIn"
+      },
+      "domain": "23",
+      "attributes": [
+        "someValues",
+        "external",
+        "object",
+        "transitive"
+      ],
+      "id": "161",
+      "pos": [
+        1373.5589550975292,
+        947.718842923125
+      ]
+    },
+    {
+      "range": "135",
+      "domain": "10",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "162"
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#hasFood",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food",
+      "range": "48",
+      "label": {
+        "IRI-based": "hasFood"
+      },
+      "minCardinality": "1",
+      "domain": "1",
+      "attributes": [
+        "object"
+      ],
+      "id": "164",
+      "pos": [
+        -70.94249895523001,
+        320.8201923032805
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#yearValue",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "range": "158",
+      "label": {
+        "IRI-based": "yearValue"
+      },
+      "domain": "38",
+      "attributes": [
+        "external",
+        "datatype"
+      ],
+      "id": "167",
+      "pos": [
+        105.98572043434928,
+        -349.4229771550451
+      ]
+    },
+    {
+      "range": "83",
+      "domain": "32",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "169"
+    },
+    {
+      "range": "33",
+      "domain": "88",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "172"
+    },
+    {
+      "range": "122",
+      "domain": "88",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "173"
+    },
+    {
+      "range": "82",
+      "domain": "102",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "174"
+    },
+    {
+      "range": "35",
+      "domain": "34",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "175"
+    },
+    {
+      "range": "44",
+      "domain": "43",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "177"
+    },
+    {
+      "range": "25",
+      "domain": "28",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "178"
+    },
+    {
+      "range": "33",
+      "domain": "122",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "179"
+    },
+    {
+      "range": "155",
+      "domain": "76",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "180"
+    },
+    {
+      "range": "3",
+      "domain": "48",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "181",
+      "pos": [
+        -166.5084135007478,
+        543.2178637965033
+      ]
+    },
+    {
+      "range": "3",
+      "domain": "11",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "182",
+      "pos": [
+        13.891570530940172,
+        379.831701386993
+      ]
+    },
+    {
+      "range": "3",
+      "domain": "1",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "183",
+      "pos": [
+        145.1432570219143,
+        292.8215034771268
+      ]
+    },
+    {
+      "range": "3",
+      "domain": "70",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "184",
+      "pos": [
+        319.02314091034486,
+        481.7130697669814
+      ]
+    },
+    {
+      "range": "83",
+      "domain": "102",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "185",
+      "pos": [
+        -193.59660789590512,
+        1642.8993967221295
+      ]
+    },
+    {
+      "range": "83",
+      "domain": "82",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "189",
+      "pos": [
+        -242.21051480613096,
+        1646.3262120324503
+      ]
+    },
+    {
+      "range": "33",
+      "domain": "83",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "190",
+      "pos": [
+        -245.35311102981177,
+        1313.7510925672082
+      ]
+    },
+    {
+      "range": "93",
+      "domain": "95",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "191",
+      "pos": [
+        696.8107831148137,
+        1293.020949172067
+      ]
+    },
+    {
+      "range": "93",
+      "domain": "41",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "192",
+      "pos": [
+        473.1574382741557,
+        1151.7316812173613
+      ]
+    },
+    {
+      "range": "33",
+      "domain": "32",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "193",
+      "pos": [
+        -172.28565849657105,
+        1299.9572981629108
+      ]
+    },
+    {
+      "range": "93",
+      "domain": "96",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "194",
+      "pos": [
+        490.53955824399577,
+        1318.2673549034212
+      ]
+    },
+    {
+      "range": "13",
+      "domain": "89",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "195",
+      "pos": [
+        -735.2077636191233,
+        1445.3981546893401
+      ]
+    },
+    {
+      "range": "13",
+      "domain": "12",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "196",
+      "pos": [
+        -796.7863106696745,
+        1409.3350153110218
+      ]
+    },
+    {
+      "range": "90",
+      "domain": "92",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "197",
+      "pos": [
+        -848.1162963661291,
+        320.0577595164624
+      ]
+    },
+    {
+      "range": "90",
+      "domain": "91",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "198",
+      "pos": [
+        -821.0766644938675,
+        274.1665022334803
+      ]
+    },
+    {
+      "range": "70",
+      "domain": "23",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "202",
+      "pos": [
+        960.4411903922743,
+        535.9514105112573
+      ]
+    },
+    {
+      "range": "70",
+      "domain": "79",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "203",
+      "pos": [
+        639.4926944241843,
+        332.05443480806616
+      ]
+    },
+    {
+      "range": "15",
+      "domain": "87",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "204",
+      "pos": [
+        1773.1454546764955,
+        1179.5902233533272
+      ]
+    },
+    {
+      "range": "7",
+      "domain": "6",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "205",
+      "pos": [
+        -901.7257515234859,
+        516.6140210740859
+      ]
+    },
+    {
+      "range": "7",
+      "domain": "49",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "206",
+      "pos": [
+        -902.5895808018743,
+        577.6577679722649
+      ]
+    },
+    {
+      "range": "75",
+      "domain": "78",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "207",
+      "pos": [
+        -986.3881535722516,
+        1063.7659866596337
+      ]
+    },
+    {
+      "range": "75",
+      "domain": "77",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "208",
+      "pos": [
+        -1029.6987527515603,
+        976.3569065311879
+      ]
+    },
+    {
+      "range": "17",
+      "domain": "86",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "209",
+      "pos": [
+        2066.786632607441,
+        355.91141089031714
+      ]
+    },
+    {
+      "range": "186",
+      "domain": "187",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "211",
+      "pos": [
+        1263.72973881312,
+        1294.3251723961243
+      ]
+    },
+    {
+      "range": "94",
+      "domain": "106",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "212",
+      "pos": [
+        749.7775630907504,
+        1047.3303627916503
+      ]
+    },
+    {
+      "range": "94",
+      "domain": "93",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "213",
+      "pos": [
+        608.206623924697,
+        1160.591884179536
+      ]
+    },
+    {
+      "range": "88",
+      "domain": "109",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "214",
+      "pos": [
+        -525.7012639097736,
+        1224.692489049744
+      ]
+    },
+    {
+      "range": "10",
+      "domain": "8",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "215",
+      "pos": [
+        1806.8034797848427,
+        554.7006561690839
+      ]
+    },
+    {
+      "range": "88",
+      "domain": "13",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "216",
+      "pos": [
+        -616.3262286412435,
+        1179.2316623921524
+      ]
+    },
+    {
+      "range": "6",
+      "domain": "49",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "217"
+    },
+    {
+      "range": "4",
+      "domain": "90",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "218"
+    },
+    {
+      "range": "26",
+      "domain": "90",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "219"
+    },
+    {
+      "range": "122",
+      "domain": "90",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "221"
+    },
+    {
+      "range": "33",
+      "domain": "90",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "222"
+    },
+    {
+      "range": "88",
+      "domain": "90",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "223"
+    },
+    {
+      "range": "90",
+      "domain": "7",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "224"
+    },
+    {
+      "range": "48",
+      "domain": "11",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "225"
+    },
+    {
+      "range": "108",
+      "domain": "163",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "227"
+    },
+    {
+      "range": "92",
+      "domain": "91",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "228"
+    },
+    {
+      "range": "48",
+      "domain": "155",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "230",
+      "pos": [
+        -445.78325602753256,
+        700.8148488655883
+      ]
+    },
+    {
+      "range": "48",
+      "domain": "122",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "231",
+      "pos": [
+        -518.0442946266971,
+        600.5026524878551
+      ]
+    },
+    {
+      "range": "109",
+      "domain": "108",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "233",
+      "pos": [
+        -501.5586938362884,
+        1541.6649351561719
+      ]
+    },
+    {
+      "range": "109",
+      "domain": "163",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "235",
+      "pos": [
+        -552.7320178870123,
+        1541.0164631332623
+      ]
+    },
+    {
+      "range": "48",
+      "domain": "76",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "236",
+      "pos": [
+        -490.05808355891736,
+        686.481662728886
+      ]
+    },
+    {
+      "range": "48",
+      "domain": "26",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "238",
+      "pos": [
+        -509.3892216135467,
+        364.9661222126316
+      ]
+    },
+    {
+      "range": "48",
+      "domain": "33",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "239",
+      "pos": [
+        -319.74807538149014,
+        847.2231878581847
+      ]
+    },
+    {
+      "range": "48",
+      "domain": "88",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "241",
+      "pos": [
+        -453.7025365867398,
+        807.4638862347234
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#adjacentRegion",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "range": "58",
+      "label": {
+        "IRI-based": "adjacentRegion"
+      },
+      "domain": "58",
+      "attributes": [
+        "external",
+        "object",
+        "symmetric"
+      ],
+      "id": "242",
+      "pos": [
+        1431.5677779338694,
+        1422.8234557203998
+      ]
+    },
+    {
+      "range": "48",
+      "domain": "7",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "243",
+      "pos": [
+        -575.111378254907,
+        562.2521107427242
+      ]
+    },
+    {
+      "range": "48",
+      "domain": "90",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "244",
+      "pos": [
+        -549.1010543613053,
+        469.84706585296334
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape",
+      "baseIri": "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
+      "range": "78",
+      "label": {
+        "IRI-based": "madeFromGrape"
+      },
+      "superproperty": [
+        "2"
+      ],
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "domain": "23",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "5"
+    },
+    {
+      "range": "23",
+      "domain": "135",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "248",
+      "pos": [
+        1426.5031637242064,
+        780.6316316083014
+      ]
+    },
+    {
+      "range": "76",
+      "domain": "75",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "249",
+      "pos": [
+        -762.7353101708725,
+        894.5015236666161
+      ]
+    },
+    {
+      "range": "9",
+      "domain": "8",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "250",
+      "pos": [
+        1785.343382154881,
+        198.7139365463567
+      ]
+    },
+    {
+      "range": "23",
+      "domain": "10",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "251",
+      "pos": [
+        1562.2427131639658,
+        680.4373834563985
+      ]
+    },
+    {
+      "range": "23",
+      "domain": "15",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "252",
+      "pos": [
+        1517.7921635480102,
+        823.0344360993892
+      ]
+    }
+  ]
+}
