@@ -30,7 +30,7 @@ the result of this effort may eventually be stored and maintained in the central
 Used in Open Food Facts(OFF) LOD. It defines basic classes for Food product and detailed ingredient properties.
 It is simple and practical.. for generic food product glossary
 
-![food1](https://raw.githubusercontent.com/openthings-cc/openthings-food/master/art/food1.svg)
+![food1](https://cdn.rawgit.com/openthings-cc/openthings-food/master/art/food1.svg)
 
 
 * (food2) http://www.w3.org/TR/2004/REC-owl-guide-20040210/food.rdf (demo)
@@ -38,7 +38,7 @@ It is simple and practical.. for generic food product glossary
 It is (as it states itself) a example Ontology. It defines wide range of wines and various meals. Could be suitable for restaurants.
 
 
-![food1](https://raw.githubusercontent.com/openthings-cc/openthings-food/master/art/food1.svg)
+![food1](https://cdn.rawgit.com/openthings-cc/openthings-food/master/art/food1.svg)
 
 
 * (food3) http://purl.org/foodontology
@@ -55,7 +55,7 @@ It has a set of food additives however much less than (food1).
 What is nice is that it is based on GoodRelations which is by far the most adopted Ontology in the industrial world.
 This strategy is also good because GoodRelations is included in most of the e-commerce related solutions now-a-days.
 
-![food1](https://raw.githubusercontent.com/openthings-cc/openthings-food/master/art/food1.svg)
+![food1](https://cdn.rawgit.com/openthings-cc/openthings-food/master/art/food1.svg)
 
 
 * Agrovoc
