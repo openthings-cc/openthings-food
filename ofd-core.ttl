@@ -1,0 +1,220 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ofd: <https://w3id.org/openfooddata/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vf: <https://w3id.org/valueflows/> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core> .
+
+<https://w3id.org/openfooddata/core> a owl:Ontology, adms:SemanticAsset ;
+    dcterms:title "Open Food Data Ontology" ;
+    dcterms:description "This ontology models the Open Food Data domain. It allows to describe food products, food producers/farmers, food shops/hubs and other actors and collaboration agreements between those" ;
+    dc:license "https://creativecommons.org/publicdomain/" ;
+    dcterms:modified "2017-02-17"^^xsd:date;
+    vann:preferredNamespaceUri "https://w3id.org/openfooddata/core" ;
+    vann:preferredNamespacePrefix "ofd" ;
+    foaf:homepage <https://w3id.org/openfooddata/core> ;
+    dcterms:created "2017-02-17"^^xsd:date ;
+    dcterms:publisher ofd:OFD ;
+    dcterms:partOf <https://w3id.org/openfooddata/> ;
+    dcterms:type <http://purl.org/adms/assettype/Ontology> ;
+    dcterms:status <http://purl.org/adms/status/UnderDevelopment> ;
+    dc:creator ofd:Kalin .
+
+ofd:OFD a dcterms:Agent ;
+    foaf:member ofd:Kalin ;
+    foaf:name "Open Food Data" ;
+    foaf:homepage <http://www.openfooddata.org/> .
+
+ofd:Kalin a foaf:Person ;
+    foaf:name "Kalin Maldzhanski" ;
+    foaf:homepage <http://djodjo.org> .
+
+
+# base classes
+
+# to be used to build up non-strict, reusable Food product hierarchies
+
+
+ofd:Food a owl:Class ;
+    rdfs:label "Food" ;
+    rdfs:subClassOf skos:Concept .
+
+ofd:FoodProduct a owl:Class ;
+    rdfs:label "Food Product" ;
+    rdfs:subClassOf vf:MaterialItem , ofd:Food .
+
+ofd:FoodActor a owl:Class ;
+    rdfs:label "Food Actor" ;
+    rdfs:subClassOf foaf:Agent, skos:Concept .
+
+ofd:FoodService a owl:Class ;
+    rdfs:label "Food Service" ;
+    rdfs:subClassOf vf:Service , skos:Concept .
+
+# these might be anything that is used in the processes, ex: glass/plastic container, paper/plastic bag, cold box, printing paper, etc.
+
+ofd:NonFoodItem a owl:Class ;
+    rdfs:label "Non-Food Item" ;
+    rdfs:subClassOf vf:MaterialItem , skos:Concept .
+
+# base properties
+
+ofd:offersProduct a owl:ObjectProperty ;
+    rdfs:label "offersProduct" ;
+    rdfs:subPropertyOf skos:related ;
+    rdfs:domain ofd:FoodActor ;
+    rdfs:range ofd:FoodProduct .
+
+ofd:offersService a owl:ObjectProperty ;
+    rdfs:subPropertyOf skos:related ;
+    rdfs:label "offersService" ;
+    rdfs:domain ofd:FoodActor ;
+    rdfs:range ofd:FoodService .
+
+ofd:offersNonFoodItem a owl:ObjectProperty ;
+    rdfs:subPropertyOf skos:related ;
+    rdfs:label "OffersNonFoodItem" ;
+    rdfs:domain ofd:FoodActor ;
+    rdfs:range ofd:NonFoodItem .
+
+ofd:producedBy a owl:ObjectProperty ;
+    rdfs:subPropertyOf skos:related ;
+    rdfs:label "producedBy" ;
+    rdfs:domain ofd:FoodProduct ;
+    rdfs:range ofd:FoodActor .
+
+# the list of products the domain is made form
+ofd:madeOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf skos:related ;
+    owl:inverseOf ofd:usedIn ;
+    rdfs:label "madeOf" ;
+    rdfs:domain ofd:FoodProduct ;
+    rdfs:range ofd:FoodProduct .
+
+# reverse of madeOf
+ofd:usedIn a owl:ObjectProperty ;
+    rdfs:subPropertyOf skos:related ;
+    owl:inverseOf ofd:madeOf ;
+    rdfs:label "usedIn" ;
+    rdfs:domain ofd:FoodProduct ;
+    rdfs:range ofd:FoodProduct .
+
+# TODO could possibly use VF vocabs ...
+ofd:worksWith a owl:ObjectProperty ;
+    rdfs:subPropertyOf skos:related ;
+    rdfs:label "worksWith" ;
+    rdfs:domain ofd:FoodActor ;
+    rdfs:range ofd:FoodActor .
+
+# when it ts claimed
+ofd:claimedBy a owl:ObjectProperty ;
+    rdfs:label "isIdentified" ;
+    rdfs:comment "Identifies the Agent who claimed ownership on this Food Actor and its data" ;
+    rdfs:domain ofd:FoodActor ;
+    rdfs:range foaf:Agent .
+
+ofd:isLookingForPartners a owl:DataProperty ;
+    rdfs:label "isLookingForPartners" ;
+    rdfs:domain ofd:FoodActor ;
+    rdfs:range xsd:boolean .
+
+ofd:operationalCoverage a owl:ObjectProperty ;
+    rdfs:label "operationalCoverage" ;
+    rdfs:comment "activity coverage of a specific actor, which may depend on its agreements with other actors" ;
+    rdfs:domain ofd:FoodActor ;
+    rdfs:range schema:GeoShape .
+
+
+# ##########################################
+# base concepts
+
+# FoodActor
+
+ofd:Producer a ofd:FoodActor;
+    rdfs:label "Producer" .
+
+ofd:FoodHub a ofd:FoodActor;
+    rdfs:label "FoodHub" .
+
+ofd:FoodCoop a ofd:FoodActor;
+    rdfs:label "FoodCoop" .
+
+# used for storing
+ofd:FoodStore a ofd:FoodActor;
+    rdfs:label "FoodStore" .
+
+# performs delivery
+ofd:FoodDistributor a ofd:FoodActor;
+    rdfs:label "FoodDistributor" .
+
+ofd:FoodPicker a ofd:FoodActor;
+    rdfs:label "FoodPicker" .
+
+ofd:SoftwareProvider a ofd:FoodActor;
+    rdfs:label "Software Provider" .
+
+ofd:FoodSAAS a ofd:FoodActor;
+    rdfs:label "Food SAAS" .
+
+# FoodService
+
+ofd:FoodProcessing a ofd:FoodService ;
+    rdfs:label "Food Processing" .
+
+ofd:FoodPicking a ofd:FoodService ;
+    rdfs:label "Food Picking" .
+
+ofd:FoodDelivery a ofd:FoodService ;
+    rdfs:label "Food Delivery" .
+
+ofd:FoodStorage a ofd:FoodService ;
+    rdfs:label "Food Storage" .
+
+
+# General Food types
+
+
+ofd:Meat a ofd:Food ;
+    rdfs:label "Meat" .
+
+ofd:Fruit a ofd:Food ;
+    rdfs:label "Fruit" .
+
+ofd:Vegetable a ofd:Food ;
+    rdfs:label "Vegetable" .
+
+ofd:Fungi a ofd:Food ;
+    rdfs:label "Fungi" .
+
+ofd:NutOrSeed a ofd:Food ;
+    rdfs:label "NutOrSeed" .
+
+ofd:DairyProduct a ofd:Food ;
+    rdfs:label "DairyProduct" .
+
+ofd:Seafood a ofd:Food ;
+    rdfs:label "Seafood" .
+
+ofd:Oils a ofd:Food ;
+    rdfs:label "Oils" .
+
+ofd:Egg a ofd:Food ;
+    rdfs:label "Egg" .
+
+ofd:BakedFood a ofd:Food ;
+    rdfs:label "BakedFood" .
+
+ofd:Drink a ofd:Food ;
+    rdfs:label "Drink" .
+
+ofd:Cereals a ofd:Food ;
+    rdfs:label "Cereals" .
+
+

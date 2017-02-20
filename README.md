@@ -22,6 +22,24 @@ the result of this effort may eventually be stored and maintained in the central
 * https://raw.githubusercontent.com/ailabitmo/food-ontology/master/food.owl (https://fruct.org/publications/abstract13/files/Kol.pdf)
 * http://semanticdiet.com/data.event (some research around USDA)
 
+## DRAFT Open Food Data Core Vocab
+
+DRAFT - https://cdn.rawgit.com/openthings-cc/openthings-food/master/ofd-core.ttl
+
+![ofd-core](https://cdn.rawgit.com/openthings-cc/openthings-food/master/art/ofd-core.svg)
+
+### Reasoning
+
+Combining SKOS and OWL allow building less formal structure on a more formal and simple base,
+combining complex relations between SKOS Concepts and at the same time 
+imposing constraints using OWL.
+
+Using less formal structure will help to achieve more clear hierarchical 
+structure considering that we will need to relate various thesauri from different sources, 
+ which cannot be centrally controlled.
+ 
+Another advantage is that we can seamlessly relate to and reuse Agrovoc Concepts.  
+ 
 
 ## Analysis
 

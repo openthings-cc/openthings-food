@@ -1,0 +1,1250 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.1), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.0.1]",
+  "header": {
+    "languages": [
+      "undefined"
+    ],
+    "baseIris": [
+      "https://w3id.org/valueflows",
+      "https://w3id.org/openfooddata/core",
+      "http://www.w3.org/2002/07/owl",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "https://schema.org",
+      "http://purl.org/dc/terms",
+      "http://www.w3.org/2001/XMLSchema",
+      "http://www.w3.org/2004/02/skos",
+      "http://xmlns.com/foaf/0.1",
+      "http://www.w3.org/ns/adms"
+    ],
+    "title": {
+      "undefined": "Open Food Data Ontology"
+    },
+    "iri": "https://w3id.org/openfooddata/core",
+    "author": [
+      "https://w3id.org/openfooddata/core#Kalin"
+    ],
+    "description": {
+      "undefined": "This ontology models the Open Food Data domain. It allows to describe food products, food producers/farmers, food shops/hubs and other actors and collaboration agreements between those"
+    },
+    "other": {
+      "partOf": [
+        {
+          "identifier": "partOf",
+          "language": "undefined",
+          "value": "https://w3id.org/openfooddata/",
+          "type": "iri"
+        }
+      ],
+      "license": [
+        {
+          "identifier": "license",
+          "language": "undefined",
+          "value": "https://creativecommons.org/publicdomain/",
+          "type": "label"
+        }
+      ],
+      "creator": [
+        {
+          "identifier": "creator",
+          "language": "undefined",
+          "value": "https://w3id.org/openfooddata/core#Kalin",
+          "type": "iri"
+        }
+      ],
+      "created": [
+        {
+          "identifier": "created",
+          "language": "undefined",
+          "value": "2017-02-17",
+          "type": "label"
+        }
+      ],
+      "preferredNamespacePrefix": [
+        {
+          "identifier": "preferredNamespacePrefix",
+          "language": "undefined",
+          "value": "ofd",
+          "type": "label"
+        }
+      ],
+      "publisher": [
+        {
+          "identifier": "publisher",
+          "language": "undefined",
+          "value": "https://w3id.org/openfooddata/core#OFD",
+          "type": "iri"
+        }
+      ],
+      "modified": [
+        {
+          "identifier": "modified",
+          "language": "undefined",
+          "value": "2017-02-17",
+          "type": "label"
+        }
+      ],
+      "preferredNamespaceUri": [
+        {
+          "identifier": "preferredNamespaceUri",
+          "language": "undefined",
+          "value": "https://w3id.org/openfooddata/core",
+          "type": "label"
+        }
+      ],
+      "title": [
+        {
+          "identifier": "title",
+          "language": "undefined",
+          "value": "Open Food Data Ontology",
+          "type": "label"
+        }
+      ],
+      "type": [
+        {
+          "identifier": "type",
+          "language": "undefined",
+          "value": "http://purl.org/adms/assettype/Ontology",
+          "type": "iri"
+        }
+      ],
+      "status": [
+        {
+          "identifier": "status",
+          "language": "undefined",
+          "value": "http://purl.org/adms/status/UnderDevelopment",
+          "type": "iri"
+        }
+      ],
+      "homepage": [
+        {
+          "identifier": "homepage",
+          "language": "undefined",
+          "value": "https://w3id.org/openfooddata/core",
+          "type": "iri"
+        }
+      ]
+    }
+  },
+  "namespace": [],
+  "metrics": {
+    "classCount": 14,
+    "objectPropertyCount": 10,
+    "datatypePropertyCount": 1,
+    "individualCount": 28
+  },
+  "settings": {
+    "global": {
+      "zoom": 1,
+      "translation": [
+        73.92600644596996,
+        -45.269267821225014
+      ],
+      "paused": true
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "14",
+      "type": "owl:Class"
+    },
+    {
+      "id": "17",
+      "type": "owl:Class"
+    },
+    {
+      "id": "10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "28",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "1",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "29",
+      "type": "owl:Class"
+    },
+    {
+      "id": "20",
+      "type": "owl:Class"
+    },
+    {
+      "id": "12",
+      "type": "owl:Class"
+    },
+    {
+      "id": "30",
+      "type": "owl:Class"
+    },
+    {
+      "id": "9",
+      "type": "owl:Class"
+    },
+    {
+      "id": "32",
+      "type": "owl:Class"
+    },
+    {
+      "id": "19",
+      "type": "owl:Class"
+    },
+    {
+      "id": "16",
+      "type": "owl:Class"
+    },
+    {
+      "id": "25",
+      "type": "owl:Class"
+    },
+    {
+      "id": "27",
+      "type": "owl:Class"
+    },
+    {
+      "id": "35",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "iri": "http://xmlns.com/foaf/0.1/Agent",
+      "baseIri": "http://xmlns.com/foaf/0.1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Agent"
+      },
+      "subClasses": [
+        "9"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "14",
+      "pos": [
+        208.86637201478266,
+        589.9869980903653
+      ]
+    },
+    {
+      "iri": "https://w3id.org/valueflows/Service",
+      "baseIri": "https://w3id.org/valueflows",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Service"
+      },
+      "subClasses": [
+        "16"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "17",
+      "pos": [
+        1227.1245920619076,
+        651.5864891949044
+      ]
+    },
+    {
+      "iri": "https://w3id.org/openfooddata/core#NonFoodItem",
+      "baseIri": "https://w3id.org/openfooddata/core",
+      "instances": 0,
+      "label": {
+        "IRI-based": "NonFoodItem",
+        "undefined": "Non-Food Item"
+      },
+      "id": "10",
+      "superClasses": [
+        "20",
+        "27"
+      ],
+      "pos": [
+        925.569103244877,
+        348.48442072304863
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "28",
+      "label": {
+        "IRI-based": "boolean"
+      },
+      "pos": [
+        476.22326631958015,
+        781.3827639232584
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "id": "1",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        1140.12340965073,
+        -20.6802429949243
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/ns/adms#SemanticAsset",
+      "baseIri": "http://www.w3.org/ns/adms",
+      "instances": 0,
+      "label": {
+        "IRI-based": "SemanticAsset"
+      },
+      "individuals": [
+        {
+          "iri": "https://w3id.org/openfooddata/core",
+          "baseIri": "https://w3id.org/openfooddata",
+          "labels": {
+            "IRI-based": "core"
+          }
+        }
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "29",
+      "pos": [
+        1358.386980574449,
+        302.1420064167917
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2004/02/skos/coreConcept",
+      "baseIri": "http://www.w3.org/2004/02/skos",
+      "instances": 0,
+      "label": {
+        "IRI-based": "coreConcept"
+      },
+      "subClasses": [
+        "19",
+        "10",
+        "16",
+        "9"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "20",
+      "pos": [
+        750.2033655310387,
+        838.2479962049248
+      ]
+    },
+    {
+      "iri": "https://schema.org/GeoShape",
+      "baseIri": "https://schema.org",
+      "instances": 0,
+      "label": {
+        "IRI-based": "GeoShape"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "12",
+      "pos": [
+        740.4831495591515,
+        339.2946462218589
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2002/07/owl#DataProperty",
+      "baseIri": "http://www.w3.org/2002/07/owl",
+      "instances": 0,
+      "label": {
+        "IRI-based": "DataProperty"
+      },
+      "individuals": [
+        {
+          "iri": "https://w3id.org/openfooddata/core#isLookingForPartners",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "isLookingForPartners",
+            "undefined": "isLookingForPartners"
+          }
+        }
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "30",
+      "pos": [
+        497.3013677571395,
+        1148.9805094795354
+      ]
+    },
+    {
+      "iri": "https://w3id.org/openfooddata/core#FoodActor",
+      "baseIri": "https://w3id.org/openfooddata/core",
+      "instances": 0,
+      "label": {
+        "IRI-based": "FoodActor",
+        "undefined": "Food Actor"
+      },
+      "individuals": [
+        {
+          "iri": "https://w3id.org/openfooddata/core#SoftwareProvider",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "SoftwareProvider",
+            "undefined": "Software Provider"
+          }
+        },
+        {
+          "iri": "https://w3id.org/openfooddata/core#FoodHub",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "FoodHub",
+            "undefined": "FoodHub"
+          }
+        },
+        {
+          "iri": "https://w3id.org/openfooddata/core#Producer",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "Producer",
+            "undefined": "Producer"
+          }
+        },
+        {
+          "iri": "https://w3id.org/openfooddata/core#FoodPicker",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "FoodPicker",
+            "undefined": "FoodPicker"
+          }
+        },
+        {
+          "iri": "https://w3id.org/openfooddata/core#FoodSAAS",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "FoodSAAS",
+            "undefined": "Food SAAS"
+          }
+        },
+        {
+          "iri": "https://w3id.org/openfooddata/core#FoodDistributor",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "FoodDistributor",
+            "undefined": "FoodDistributor"
+          }
+        },
+        {
+          "iri": "https://w3id.org/openfooddata/core#FoodCoop",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "FoodCoop",
+            "undefined": "FoodCoop"
+          }
+        },
+        {
+          "iri": "https://w3id.org/openfooddata/core#FoodStore",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "FoodStore",
+            "undefined": "FoodStore"
+          }
+        }
+      ],
+      "id": "9",
+      "superClasses": [
+        "14",
+        "20"
+      ],
+      "pos": [
+        575.4299847869604,
+        524.054249699068
+      ]
+    },
+    {
+      "iri": "http://purl.org/dc/terms/Agent",
+      "baseIri": "http://purl.org/dc/terms",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Agent"
+      },
+      "individuals": [
+        {
+          "iri": "https://w3id.org/openfooddata/core#OFD",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "annotations": {
+            "name": [
+              {
+                "identifier": "name",
+                "language": "undefined",
+                "value": "Open Food Data",
+                "type": "label"
+              }
+            ],
+            "member": [
+              {
+                "identifier": "member",
+                "language": "undefined",
+                "value": "https://w3id.org/openfooddata/core#Kalin",
+                "type": "iri"
+              }
+            ],
+            "homepage": [
+              {
+                "identifier": "homepage",
+                "language": "undefined",
+                "value": "http://www.openfooddata.org/",
+                "type": "iri"
+              }
+            ]
+          },
+          "labels": {
+            "IRI-based": "OFD"
+          }
+        }
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "32",
+      "pos": [
+        832.6978766627844,
+        -189.86389599187916
+      ]
+    },
+    {
+      "iri": "https://w3id.org/openfooddata/core#Food",
+      "baseIri": "https://w3id.org/openfooddata/core",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Food",
+        "undefined": "Food"
+      },
+      "individuals": [
+        {
+          "iri": "https://w3id.org/openfooddata/core#NutOrSeed",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "NutOrSeed",
+            "undefined": "NutOrSeed"
+          }
+        },
+        {
+          "iri": "https://w3id.org/openfooddata/core#Fungi",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "Fungi",
+            "undefined": "Fungi"
+          }
+        },
+        {
+          "iri": "https://w3id.org/openfooddata/core#Vegetable",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "Vegetable",
+            "undefined": "Vegetable"
+          }
+        },
+        {
+          "iri": "https://w3id.org/openfooddata/core#Cereals",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "Cereals",
+            "undefined": "Cereals"
+          }
+        },
+        {
+          "iri": "https://w3id.org/openfooddata/core#BakedFood",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "BakedFood",
+            "undefined": "BakedFood"
+          }
+        },
+        {
+          "iri": "https://w3id.org/openfooddata/core#Oils",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "Oils",
+            "undefined": "Oils"
+          }
+        },
+        {
+          "iri": "https://w3id.org/openfooddata/core#Fruit",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "Fruit",
+            "undefined": "Fruit"
+          }
+        },
+        {
+          "iri": "https://w3id.org/openfooddata/core#Egg",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "Egg",
+            "undefined": "Egg"
+          }
+        },
+        {
+          "iri": "https://w3id.org/openfooddata/core#Meat",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "Meat",
+            "undefined": "Meat"
+          }
+        },
+        {
+          "iri": "https://w3id.org/openfooddata/core#Seafood",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "Seafood",
+            "undefined": "Seafood"
+          }
+        },
+        {
+          "iri": "https://w3id.org/openfooddata/core#DairyProduct",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "DairyProduct",
+            "undefined": "DairyProduct"
+          }
+        },
+        {
+          "iri": "https://w3id.org/openfooddata/core#Drink",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "Drink",
+            "undefined": "Drink"
+          }
+        }
+      ],
+      "subClasses": [
+        "25"
+      ],
+      "id": "19",
+      "superClasses": [
+        "20"
+      ],
+      "pos": [
+        304.7986507485035,
+        793.3532036407573
+      ]
+    },
+    {
+      "iri": "https://w3id.org/openfooddata/core#FoodService",
+      "baseIri": "https://w3id.org/openfooddata/core",
+      "instances": 0,
+      "label": {
+        "IRI-based": "FoodService",
+        "undefined": "Food Service"
+      },
+      "individuals": [
+        {
+          "iri": "https://w3id.org/openfooddata/core#FoodStorage",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "FoodStorage",
+            "undefined": "Food Storage"
+          }
+        },
+        {
+          "iri": "https://w3id.org/openfooddata/core#FoodDelivery",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "FoodDelivery",
+            "undefined": "Food Delivery"
+          }
+        },
+        {
+          "iri": "https://w3id.org/openfooddata/core#FoodProcessing",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "FoodProcessing",
+            "undefined": "Food Processing"
+          }
+        },
+        {
+          "iri": "https://w3id.org/openfooddata/core#FoodPicking",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "labels": {
+            "IRI-based": "FoodPicking",
+            "undefined": "Food Picking"
+          }
+        }
+      ],
+      "id": "16",
+      "superClasses": [
+        "17",
+        "20"
+      ],
+      "pos": [
+        1003.3611126478941,
+        615.2945381434575
+      ]
+    },
+    {
+      "iri": "https://w3id.org/openfooddata/core#FoodProduct",
+      "baseIri": "https://w3id.org/openfooddata/core",
+      "instances": 0,
+      "label": {
+        "IRI-based": "FoodProduct",
+        "undefined": "Food Product"
+      },
+      "id": "25",
+      "superClasses": [
+        "19",
+        "27"
+      ],
+      "pos": [
+        336.84354220590103,
+        249.16224601623176
+      ]
+    },
+    {
+      "iri": "https://w3id.org/valueflows/MaterialItem",
+      "baseIri": "https://w3id.org/valueflows",
+      "instances": 0,
+      "label": {
+        "IRI-based": "MaterialItem"
+      },
+      "subClasses": [
+        "10",
+        "25"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "27",
+      "pos": [
+        697.0144466450748,
+        188.20941314411726
+      ]
+    },
+    {
+      "iri": "http://xmlns.com/foaf/0.1/Person",
+      "baseIri": "http://xmlns.com/foaf/0.1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Person"
+      },
+      "individuals": [
+        {
+          "iri": "https://w3id.org/openfooddata/core#Kalin",
+          "baseIri": "https://w3id.org/openfooddata/core",
+          "annotations": {
+            "name": [
+              {
+                "identifier": "name",
+                "language": "undefined",
+                "value": "Kalin Maldzhanski",
+                "type": "label"
+              }
+            ],
+            "homepage": [
+              {
+                "identifier": "homepage",
+                "language": "undefined",
+                "value": "http://djodjo.org",
+                "type": "iri"
+              }
+            ]
+          },
+          "labels": {
+            "IRI-based": "Kalin"
+          }
+        }
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "35",
+      "pos": [
+        487.5907189006685,
+        -186.43957998294647
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "0",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "2",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "11",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "13",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "15",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "18",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "21",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "22",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "23",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "24",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "26",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "3",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "4",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "31",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "5",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "6",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "7",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "8",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "33",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "34",
+      "type": "rdfs:SubClassOf"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "iri": "http://www.w3.org/2004/02/skos/corerelated",
+      "baseIri": "http://www.w3.org/2004/02/skos",
+      "range": "1",
+      "label": {
+        "IRI-based": "corerelated"
+      },
+      "domain": "1",
+      "subproperty": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "0",
+      "pos": [
+        1212.5851569159488,
+        52.43338389973704
+      ]
+    },
+    {
+      "iri": "https://w3id.org/openfooddata/core#offersNonFoodItem",
+      "baseIri": "https://w3id.org/openfooddata/core",
+      "range": "10",
+      "label": {
+        "IRI-based": "offersNonFoodItem",
+        "undefined": "OffersNonFoodItem"
+      },
+      "superproperty": [
+        "0"
+      ],
+      "domain": "9",
+      "attributes": [
+        "object"
+      ],
+      "id": "2",
+      "pos": [
+        760.5908677425855,
+        431.2092551245042
+      ]
+    },
+    {
+      "iri": "https://w3id.org/openfooddata/core#operationalCoverage",
+      "baseIri": "https://w3id.org/openfooddata/core",
+      "range": "12",
+      "label": {
+        "IRI-based": "operationalCoverage",
+        "undefined": "operationalCoverage"
+      },
+      "domain": "9",
+      "comment": {
+        "undefined": "activity coverage of a specific actor, which may depend on its agreements with other actors"
+      },
+      "attributes": [
+        "object"
+      ],
+      "id": "11",
+      "pos": [
+        665.477413617312,
+        423.25565387813486
+      ]
+    },
+    {
+      "range": "14",
+      "domain": "9",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "13",
+      "pos": [
+        372.6190116591026,
+        525.6835929079984
+      ]
+    },
+    {
+      "range": "17",
+      "domain": "16",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "15",
+      "pos": [
+        1124.0653187007931,
+        634.8714197205913
+      ]
+    },
+    {
+      "range": "20",
+      "domain": "19",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "18",
+      "pos": [
+        540.1964772545336,
+        817.0802461266096
+      ]
+    },
+    {
+      "range": "20",
+      "domain": "10",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "21",
+      "pos": [
+        837.8862343879579,
+        593.3662084639867
+      ]
+    },
+    {
+      "range": "20",
+      "domain": "16",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "22",
+      "pos": [
+        870.0748433913002,
+        732.678402478261
+      ]
+    },
+    {
+      "range": "20",
+      "domain": "9",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "23",
+      "pos": [
+        668.3043577669225,
+        691.0164442662481
+      ]
+    },
+    {
+      "range": "19",
+      "domain": "25",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "24",
+      "pos": [
+        321.5711627030448,
+        508.51999225524753
+      ]
+    },
+    {
+      "range": "27",
+      "domain": "10",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "26",
+      "pos": [
+        811.2917749449759,
+        268.3469169335829
+      ]
+    },
+    {
+      "iri": "https://w3id.org/openfooddata/core#offersProduct",
+      "baseIri": "https://w3id.org/openfooddata/core",
+      "range": "25",
+      "label": {
+        "IRI-based": "offersProduct",
+        "undefined": "offersProduct"
+      },
+      "superproperty": [
+        "0"
+      ],
+      "domain": "9",
+      "attributes": [
+        "object"
+      ],
+      "id": "3",
+      "pos": [
+        486.2220601042241,
+        340.3250713383078
+      ]
+    },
+    {
+      "iri": "https://w3id.org/openfooddata/core#worksWith",
+      "baseIri": "https://w3id.org/openfooddata/core",
+      "range": "9",
+      "label": {
+        "IRI-based": "worksWith",
+        "undefined": "worksWith"
+      },
+      "superproperty": [
+        "0"
+      ],
+      "domain": "9",
+      "attributes": [
+        "object"
+      ],
+      "id": "4",
+      "pos": [
+        582.8085622701648,
+        407.21764591443286
+      ]
+    },
+    {
+      "iri": "https://w3id.org/openfooddata/core#isLookingForPartners",
+      "baseIri": "https://w3id.org/openfooddata/core",
+      "range": "28",
+      "label": {
+        "IRI-based": "isLookingForPartners",
+        "undefined": "isLookingForPartners"
+      },
+      "domain": "9",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "31",
+      "pos": [
+        514.700455367248,
+        681.5782542880038
+      ]
+    },
+    {
+      "iri": "https://w3id.org/openfooddata/core#madeOf",
+      "inverse": "8",
+      "baseIri": "https://w3id.org/openfooddata/core",
+      "range": "25",
+      "label": {
+        "IRI-based": "madeOf",
+        "undefined": "madeOf"
+      },
+      "superproperty": [
+        "0"
+      ],
+      "domain": "25",
+      "attributes": [
+        "object"
+      ],
+      "id": "5",
+      "pos": [
+        262.36105207008495,
+        172.2823273391913
+      ]
+    },
+    {
+      "iri": "https://w3id.org/openfooddata/core#producedBy",
+      "baseIri": "https://w3id.org/openfooddata/core",
+      "range": "9",
+      "label": {
+        "IRI-based": "producedBy",
+        "undefined": "producedBy"
+      },
+      "superproperty": [
+        "0"
+      ],
+      "domain": "25",
+      "attributes": [
+        "object"
+      ],
+      "id": "6",
+      "pos": [
+        431.72278539603406,
+        387.10582246886855
+      ]
+    },
+    {
+      "iri": "https://w3id.org/openfooddata/core#offersService",
+      "baseIri": "https://w3id.org/openfooddata/core",
+      "range": "16",
+      "label": {
+        "IRI-based": "offersService",
+        "undefined": "offersService"
+      },
+      "superproperty": [
+        "0"
+      ],
+      "domain": "9",
+      "attributes": [
+        "object"
+      ],
+      "id": "7",
+      "pos": [
+        791.6950099622743,
+        570.1646679246878
+      ]
+    },
+    {
+      "iri": "https://w3id.org/openfooddata/core#usedIn",
+      "baseIri": "https://w3id.org/openfooddata/core",
+      "range": "25",
+      "label": {
+        "IRI-based": "usedIn",
+        "undefined": "usedIn"
+      },
+      "superproperty": [
+        "0"
+      ],
+      "domain": "25",
+      "attributes": [
+        "object"
+      ],
+      "id": "8"
+    },
+    {
+      "iri": "https://w3id.org/openfooddata/core#claimedBy",
+      "baseIri": "https://w3id.org/openfooddata/core",
+      "range": "14",
+      "label": {
+        "IRI-based": "claimedBy",
+        "undefined": "isIdentified"
+      },
+      "domain": "9",
+      "comment": {
+        "undefined": "Identifies the Agent who claimed ownership on this Food Actor and its data"
+      },
+      "attributes": [
+        "object"
+      ],
+      "id": "33",
+      "pos": [
+        384.05311949668413,
+        587.4879159856644
+      ]
+    },
+    {
+      "range": "27",
+      "domain": "25",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "34",
+      "pos": [
+        516.928994425488,
+        218.6858295801745
+      ]
+    }
+  ]
+}
