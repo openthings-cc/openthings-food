@@ -11,8 +11,9 @@
 @prefix vf: <https://w3id.org/valueflows/> .
 @prefix schema: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
 
-<https://w3id.org/openfooddata/core> a owl:Ontology, adms:SemanticAsset ;
+<https://w3id.org/openfooddata/core> a owl:Ontology, adms:SemanticAsset, skos:ConceptScheme ;
     dcterms:title "Open Food Data Ontology" ;
     dcterms:description "This ontology models the Open Food Data domain. It allows to describe food products, food producers/farmers, food shops/hubs and other actors and collaboration agreements between those" ;
     dc:license "https://creativecommons.org/publicdomain/" ;
@@ -37,98 +38,142 @@ ofd:Kalin a foaf:Person ;
     foaf:homepage <http://djodjo.org> .
 
 
-# base classes
+############## Interop
 
-# to be used to build up non-strict, reusable Food product hierarchies
+ofd:broaderAgrovoc a owl:ObjectProperty ;
+    rdfs:label "broaderAgrovoc" ;
+    rdfs:subPropertyOf skos:related ;
+    rdfs:domain skos:Concept ;
+    rdfs:range skos:Concept .
 
+ofd:broaderWikidata a owl:ObjectProperty ;
+    rdfs:label "broaderWikidata" ;
+    rdfs:domain skos:Concept ;
+    rdfs:range wikibase:Item .
 
-ofd:Food a owl:Class ;
-    rdfs:label "Food" ;
+ofd:broaderDbpedia a owl:ObjectProperty ;
+    rdfs:label "broaderDbpedia" ;
+    rdfs:domain skos:Concept ;
+    rdfs:range owl:Thing .
+
+ofd:broaderSchemaOrg a owl:ObjectProperty ;
+    rdfs:label "broaderSchemaOrg" ;
+    rdfs:domain skos:Concept ;
+    rdfs:range schema:Thing .
+
+############## base classes
+
+# to be used to build up non-strict, reusable Food Type hierarchies. simple mostly linked to common sources, ex: potato
+
+ofd:FoodType a owl:Class ;
+    rdfs:label "Food Type" ;
+    rdfs:comment "base class for hierarchical classification of a Food Product/Resource" ;
+    rdfs:subClassOf skos:Concept , vf:Category .
+
+# TODO link with vf:Actor
+ofd:FoodActorType a owl:Class ;
+    rdfs:label "Food Actor" ;
     rdfs:subClassOf skos:Concept .
 
-ofd:FoodProduct a owl:Class ;
+# to be used to build up non-strict, reusable Food product hierarchies
+# TODO link with vf:ResourceMaterialItemTemplate when ready
+ofd:FoodProductType a owl:Class ;
     rdfs:label "Food Product" ;
-    rdfs:subClassOf vf:MaterialItem , ofd:Food .
+    rdfs:comment "base class for offered Food Products" ;
+    rdfs:subClassOf skos:Concept .
 
-ofd:FoodActor a owl:Class ;
-    rdfs:label "Food Actor" ;
-    rdfs:subClassOf foaf:Agent, skos:Concept .
-
-ofd:FoodService a owl:Class ;
+# TODO link with vf:ServiceTemplate
+ofd:FoodServiceType a owl:Class ;
     rdfs:label "Food Service" ;
-    rdfs:subClassOf vf:Service , skos:Concept .
+    rdfs:comment "base class for offered Food Service" ;
+    rdfs:subClassOf skos:Concept .
 
 # these might be anything that is used in the processes, ex: glass/plastic container, paper/plastic bag, cold box, printing paper, etc.
-
-ofd:NonFoodItem a owl:Class ;
+# TODO link with vf:ResourceMaterialItemTemplate when ready
+ofd:NonFoodItemType a owl:Class ;
     rdfs:label "Non-Food Item" ;
-    rdfs:subClassOf vf:MaterialItem , skos:Concept .
+    rdfs:subClassOf skos:Concept .
 
-# base properties
+####################### base properties
+
+# links Types to Products
+ofd:broaderFoodType a owl:ObjectProperty ;
+    rdfs:label "broaderFoodType" ;
+    rdfs:subPropertyOf skos:related ;
+    rdfs:domain foaf:FoodProductType ;
+    rdfs:range ofd:FoodType .
+
+ofd:narrowerFoodProduct a owl:ObjectProperty ;
+    rdfs:label "narrowerFoodType" ;
+    rdfs:subPropertyOf skos:related ;
+    owl:inverseOf ofd:broaderFoodType ;
+    rdfs:domain foaf:FoodType ;
+    rdfs:range ofd:FoodProductType.
+
+
+ofd:ofActorType a owl:ObjectProperty ;
+    rdfs:label "ofActorType" ;
+    rdfs:domain foaf:Agent ;
+    rdfs:range ofd:FoodActorType .
 
 ofd:offersProduct a owl:ObjectProperty ;
     rdfs:label "offersProduct" ;
-    rdfs:subPropertyOf skos:related ;
-    rdfs:domain ofd:FoodActor ;
-    rdfs:range ofd:FoodProduct .
+    rdfs:domain foaf:Agent ;
+    rdfs:range ofd:FoodProductType.
 
 ofd:offersService a owl:ObjectProperty ;
-    rdfs:subPropertyOf skos:related ;
     rdfs:label "offersService" ;
-    rdfs:domain ofd:FoodActor ;
-    rdfs:range ofd:FoodService .
+    rdfs:domain foaf:Agent ;
+    rdfs:range ofd:FoodServiceType .
 
 ofd:offersNonFoodItem a owl:ObjectProperty ;
-    rdfs:subPropertyOf skos:related ;
     rdfs:label "OffersNonFoodItem" ;
-    rdfs:domain ofd:FoodActor ;
-    rdfs:range ofd:NonFoodItem .
+    rdfs:domain foaf:Agent ;
+    rdfs:range ofd:NonFoodItemType .
 
 ofd:producedBy a owl:ObjectProperty ;
-    rdfs:subPropertyOf skos:related ;
     rdfs:label "producedBy" ;
-    rdfs:domain ofd:FoodProduct ;
-    rdfs:range ofd:FoodActor .
+    rdfs:domain ofd:FoodProductType;
+    rdfs:range foaf:Agent .
 
 # the list of products the domain is made form
 ofd:madeOf a owl:ObjectProperty ;
     rdfs:subPropertyOf skos:related ;
     owl:inverseOf ofd:usedIn ;
     rdfs:label "madeOf" ;
-    rdfs:domain ofd:FoodProduct ;
-    rdfs:range ofd:FoodProduct .
+    rdfs:domain ofd:FoodProductType;
+    rdfs:range ofd:FoodProductType.
 
 # reverse of madeOf
 ofd:usedIn a owl:ObjectProperty ;
     rdfs:subPropertyOf skos:related ;
     owl:inverseOf ofd:madeOf ;
     rdfs:label "usedIn" ;
-    rdfs:domain ofd:FoodProduct ;
-    rdfs:range ofd:FoodProduct .
+    rdfs:domain ofd:FoodProductType;
+    rdfs:range ofd:FoodProductType.
 
 # TODO could possibly use VF vocabs ...
 ofd:worksWith a owl:ObjectProperty ;
-    rdfs:subPropertyOf skos:related ;
     rdfs:label "worksWith" ;
-    rdfs:domain ofd:FoodActor ;
-    rdfs:range ofd:FoodActor .
+    rdfs:domain foaf:Agent ;
+    rdfs:range foaf:Agent .
 
 # when it ts claimed
 ofd:claimedBy a owl:ObjectProperty ;
-    rdfs:label "isIdentified" ;
+    rdfs:label "claimedBy" ;
     rdfs:comment "Identifies the Agent who claimed ownership on this Food Actor and its data" ;
-    rdfs:domain ofd:FoodActor ;
+    rdfs:domain foaf:Agent ;
     rdfs:range foaf:Agent .
 
 ofd:isLookingForPartners a owl:DataProperty ;
     rdfs:label "isLookingForPartners" ;
-    rdfs:domain ofd:FoodActor ;
+    rdfs:domain foaf:Agent ;
     rdfs:range xsd:boolean .
 
 ofd:operationalCoverage a owl:ObjectProperty ;
     rdfs:label "operationalCoverage" ;
     rdfs:comment "activity coverage of a specific actor, which may depend on its agreements with other actors" ;
-    rdfs:domain ofd:FoodActor ;
+    rdfs:domain foaf:Agent ;
     rdfs:range schema:GeoShape .
 
 
@@ -137,84 +182,118 @@ ofd:operationalCoverage a owl:ObjectProperty ;
 
 # FoodActor
 
-ofd:Producer a ofd:FoodActor;
+ofd:FoodActor a ofd:FoodActorType;
+    skos:topConceptOf <https://w3id.org/openfooddata/core> .
+
+ofd:Producer a ofd:FoodActorType;
+    skos:broader:FoodActor ;
     rdfs:label "Producer" .
 
-ofd:FoodHub a ofd:FoodActor;
+ofd:FoodHub a ofd:FoodActorType;
+    skos:broader:FoodActor ;
     rdfs:label "FoodHub" .
 
-ofd:FoodCoop a ofd:FoodActor;
+ofd:FoodCoop a ofd:FoodActorType;
+    skos:broader:FoodActor ;
     rdfs:label "FoodCoop" .
 
 # used for storing
-ofd:FoodStore a ofd:FoodActor;
+ofd:FoodStore a ofd:FoodActorType;
+    skos:broader:FoodActor ;
     rdfs:label "FoodStore" .
 
 # performs delivery
-ofd:FoodDistributor a ofd:FoodActor;
+ofd:FoodDistributor a ofd:FoodActorType;
+    skos:broader:FoodActor ;
     rdfs:label "FoodDistributor" .
 
-ofd:FoodPicker a ofd:FoodActor;
+ofd:FoodPicker a ofd:FoodActorType;
+    skos:broader:FoodActor ;
     rdfs:label "FoodPicker" .
 
-ofd:SoftwareProvider a ofd:FoodActor;
+ofd:SoftwareProvider a ofd:FoodActorType;
+    skos:broader:FoodActor ;
     rdfs:label "Software Provider" .
 
-ofd:FoodSAAS a ofd:FoodActor;
+ofd:FoodSAAS a ofd:FoodActorType;
+    skos:broader:FoodActor ;
     rdfs:label "Food SAAS" .
 
 # FoodService
 
-ofd:FoodProcessing a ofd:FoodService ;
+ofd:FoodService a ofd:FoodServiceType;
+    skos:topConceptOf <https://w3id.org/openfooddata/core> .
+
+ofd:FoodProcessing a ofd:FoodServiceType;
+    skos:broader:FoodService ;
     rdfs:label "Food Processing" .
 
-ofd:FoodPicking a ofd:FoodService ;
+ofd:FoodPicking a ofd:FoodServiceType;
+    skos:broader:FoodService ;
     rdfs:label "Food Picking" .
 
-ofd:FoodDelivery a ofd:FoodService ;
+ofd:FoodDelivery a ofd:FoodServiceType;
+    skos:broader:FoodService ;
     rdfs:label "Food Delivery" .
 
-ofd:FoodStorage a ofd:FoodService ;
+ofd:FoodStorage a ofd:FoodServiceType;
+    skos:broader:FoodService ;
     rdfs:label "Food Storage" .
 
 
 # General Food types
 
+ofd:Food a ofd:FoodType ;
+    rdfs:label "Food" ;
+    ofd:broaderAgrovoc agrovoc:Food ;
+    ofd:broaderWikidata wikibase:Food ;
+    skos:topConceptOf <https://w3id.org/openfooddata/core> .
 
-ofd:Meat a ofd:Food ;
-    rdfs:label "Meat" .
+ofd:Meat a ofd:FoodType ;
+    rdfs:label "Meat" ;
+    skos:broader:Food .
 
-ofd:Fruit a ofd:Food ;
-    rdfs:label "Fruit" .
+ofd:Fruit a ofd:FoodType ;
+    rdfs:label "Fruit" ;
+    skos:broader:Food .
 
-ofd:Vegetable a ofd:Food ;
-    rdfs:label "Vegetable" .
+ofd:Vegetable a ofd:FoodType ;
+    rdfs:label "Vegetable" ;
+    skos:broader:Food .
 
-ofd:Fungi a ofd:Food ;
-    rdfs:label "Fungi" .
+ofd:Fungi a ofd:FoodType ;
+    rdfs:label "Fungi" ;
+    skos:broader:Food .
 
-ofd:NutOrSeed a ofd:Food ;
-    rdfs:label "NutOrSeed" .
+ofd:NutAndSeed a ofd:FoodType ;
+    rdfs:label "NutAndSeed" ;
+    skos:broader:Food .
 
-ofd:DairyProduct a ofd:Food ;
-    rdfs:label "DairyProduct" .
+ofd:DairyProduct a ofd:FoodType ;
+    rdfs:label "DairyProduct" ;
+    skos:broader:Food .
 
-ofd:Seafood a ofd:Food ;
-    rdfs:label "Seafood" .
+ofd:Seafood a ofd:FoodType ;
+    rdfs:label "Seafood" ;
+    skos:broader:Food .
 
-ofd:Oils a ofd:Food ;
-    rdfs:label "Oils" .
+ofd:OilsAndFats a ofd:FoodType ;
+    rdfs:label "Oils and Fats" ;
+    skos:broader:Food .
 
-ofd:Egg a ofd:Food ;
-    rdfs:label "Egg" .
+ofd:Egg a ofd:FoodType ;
+    rdfs:label "Egg" ;
+    skos:broader:Food .
 
-ofd:BakedFood a ofd:Food ;
-    rdfs:label "BakedFood" .
+ofd:BakedFood a ofd:FoodType ;
+    rdfs:label "BakedFood" ;
+    skos:broader:Food .
 
-ofd:Drink a ofd:Food ;
-    rdfs:label "Drink" .
+ofd:Drink a ofd:FoodType ;
+    rdfs:label "Drink" ;
+    skos:broader:Food .
 
-ofd:Cereals a ofd:Food ;
-    rdfs:label "Cereals" .
-
+ofd:Cereals a ofd:FoodType ;
+    rdfs:label "Cereals" ;
+    skos:broader:Food .
 
