@@ -12,6 +12,7 @@
 @prefix schema: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core> .
 @prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix agrovoc: <http://aims.fao.org/aos/agrovoc> .
 
 <https://w3id.org/openfooddata/core> a owl:Ontology, adms:SemanticAsset, skos:ConceptScheme ;
     dcterms:title "Open Food Data Ontology" ;
@@ -86,7 +87,7 @@ ofd:FoodProductType a owl:Class ;
 ofd:FoodServiceType a owl:Class ;
     rdfs:label "Food Service" ;
     rdfs:comment "base class for offered Food Service" ;
-    rdfs:subClassOf skos:Concept .
+    rdfs:subClassOf skos:Concept  .
 
 # these might be anything that is used in the processes, ex: glass/plastic container, paper/plastic bag, cold box, printing paper, etc.
 # TODO link with vf:ResourceMaterialItemTemplate when ready
@@ -100,19 +101,19 @@ ofd:NonFoodItemType a owl:Class ;
 ofd:broaderFoodType a owl:ObjectProperty ;
     rdfs:label "broaderFoodType" ;
     rdfs:subPropertyOf skos:related ;
-    rdfs:domain foaf:FoodProductType ;
+    rdfs:domain ofd:FoodProductType ;
     rdfs:range ofd:FoodType .
 
 ofd:narrowerFoodProduct a owl:ObjectProperty ;
-    rdfs:label "narrowerFoodType" ;
+    rdfs:label "narrowerFoodProduct" ;
     rdfs:subPropertyOf skos:related ;
     owl:inverseOf ofd:broaderFoodType ;
-    rdfs:domain foaf:FoodType ;
+    rdfs:domain ofd:FoodType ;
     rdfs:range ofd:FoodProductType.
 
 
-ofd:ofActorType a owl:ObjectProperty ;
-    rdfs:label "ofActorType" ;
+ofd:actorType a owl:ObjectProperty ;
+    rdfs:label "actorType" ;
     rdfs:domain foaf:Agent ;
     rdfs:range ofd:FoodActorType .
 
@@ -127,7 +128,7 @@ ofd:offersService a owl:ObjectProperty ;
     rdfs:range ofd:FoodServiceType .
 
 ofd:offersNonFoodItem a owl:ObjectProperty ;
-    rdfs:label "OffersNonFoodItem" ;
+    rdfs:label "offersNonFoodItem" ;
     rdfs:domain foaf:Agent ;
     rdfs:range ofd:NonFoodItemType .
 
@@ -152,11 +153,57 @@ ofd:usedIn a owl:ObjectProperty ;
     rdfs:domain ofd:FoodProductType;
     rdfs:range ofd:FoodProductType.
 
-# TODO could possibly use VF vocabs ...
-ofd:worksWith a owl:ObjectProperty ;
-    rdfs:label "worksWith" ;
+# TODO could possibly use/link VF vocabs relation...
+ofd:cooperatesWith a skos:Concept, owl:TransitiveProperty, owl:SymmetricProperty ;
+    rdfs:label "cooperatesWith" ;
+    ofd:relatedService ofd:FoodService ;
     rdfs:domain foaf:Agent ;
     rdfs:range foaf:Agent .
+
+ofd:deliversTo a skos:Concept, owl:TransitiveProperty ;
+    rdfs:label "deliversTo" ;
+    ofd:relatedService ofd:FoodDelivery ;
+    rdfs:domain foaf:Agent ;
+    rdfs:range foaf:Agent .
+
+ofd:receivingFrom a skos:Concept, owl:TransitiveProperty ;
+    rdfs:label "receivingFrom" ;
+    ofd:relatedService ofd:FoodDistribution ;
+    rdfs:domain foaf:Agent ;
+    rdfs:range foaf:Agent .
+
+ofd:storesFor a skos:Concept, owl:TransitiveProperty ;
+    rdfs:label "storesFor" ;
+    ofd:relatedService ofd:FoodStorage ;
+    rdfs:domain foaf:Agent ;
+    rdfs:range foaf:Agent .
+
+ofd:pickingFor a skos:Concept, owl:TransitiveProperty ;
+    rdfs:label "pickingFor" ;
+    ofd:relatedService ofd:FoodPicking ;
+    rdfs:domain foaf:Agent ;
+    rdfs:range foaf:Agent .
+
+ofd:packagingFor a skos:Concept, owl:TransitiveProperty ;
+    rdfs:label "packagingFor" ;
+    ofd:relatedService ofd:FoodPicking ;
+    rdfs:domain foaf:Agent ;
+    rdfs:range foaf:Agent .
+
+ofd:hostingFor a skos:Concept, owl:TransitiveProperty ;
+    rdfs:label "hostingFor" ;
+    ofd:relatedService ofd:ServiceHosting ;
+    rdfs:domain foaf:Agent ;
+    rdfs:range foaf:Agent .
+
+ofd:providesSoftwareFor a skos:Concept, owl:TransitiveProperty ;
+    rdfs:label "providesSoftwareFor" ;
+    ofd:relatedService ofd:SoftwareDelivery ;
+    rdfs:domain foaf:Agent ;
+    rdfs:range foaf:Agent .
+
+
+
 
 # when it ts claimed
 ofd:claimedBy a owl:ObjectProperty ;
@@ -180,6 +227,14 @@ ofd:operationalCoverage a owl:ObjectProperty ;
 # ##########################################
 # base concepts
 
+ofd:relatedService a owl:ObjectProperty ;
+    rdfs:label "relatedService" ;
+    rdfs:subPropertyOf skos:semanticRelation ;
+    rdfs:comment "relates concept to a FoodService" ;
+    rdfs:domain skos:Concept ;
+    rdfs:range ofd:FoodServiceType .
+
+
 # FoodActor
 
 ofd:FoodActor a ofd:FoodActorType;
@@ -190,6 +245,7 @@ ofd:Producer a ofd:FoodActorType;
     rdfs:label "Producer" .
 
 ofd:FoodHub a ofd:FoodActorType;
+    skos:broader:FoodActor ;
     skos:broader:FoodActor ;
     rdfs:label "FoodHub" .
 
@@ -232,13 +288,22 @@ ofd:FoodPicking a ofd:FoodServiceType;
     skos:broader:FoodService ;
     rdfs:label "Food Picking" .
 
-ofd:FoodDelivery a ofd:FoodServiceType;
+ofd:FoodDistribution a ofd:FoodServiceType;
     skos:broader:FoodService ;
-    rdfs:label "Food Delivery" .
+    rdfs:label "Food Distribution" .
 
 ofd:FoodStorage a ofd:FoodServiceType;
     skos:broader:FoodService ;
     rdfs:label "Food Storage" .
+
+ofd:ServiceHosting a ofd:FoodServiceType;
+    skos:broader:FoodService ;
+    rdfs:label "Service Hosting" .
+
+ofd:SoftwareDelivery a ofd:FoodServiceType;
+    skos:broader:FoodService ;
+    rdfs:label "Software Delivery" .
+
 
 
 # General Food types
